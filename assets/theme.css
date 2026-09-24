@@ -17,9 +17,9 @@
 @media(min-width:761px) and (max-width:900px){.header-cta{display:none}.site-header{gap:25px}.hero h1{font-size:65px}.hero-intro br{display:none}.product-detail{column-gap:28px}.pending-grid{grid-template-columns:1fr}.newsletter{gap:35px}}
 @media(max-width:380px){.product-card h3{font-size:24px}.card-meta{font-size:10px}.product-card h3{min-height:0}.section-heading h2{font-size:39px}.journal-grid{grid-template-columns:1fr}.journal-image{height:290px}.email-row button{gap:8px;font-size:12px}.announcement{font-size:10px}.announcement a{margin-left:6px}.pending-grid{grid-template-columns:1fr}.product-heading h1{font-size:42px}.collection-intro h1{font-size:60px}.footer-bottom{flex-wrap:wrap}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
-/* Source images remain unretouched; framing respects their native proportions. */
-.hero-media{max-width:480px;aspect-ratio:540/690;max-height:none}.hero-media>img{object-fit:contain}.visual-pair>img{object-fit:contain}.journal-image img{object-fit:contain}
-@media(max-width:760px){.hero-media{width:100%;max-width:none;aspect-ratio:1.05;max-height:360px}.hero-media>img{object-fit:contain;background:#bfb5a7}.hero-intro br{display:none}.visual-mist>img,.visual-elixir>img{height:89%}}
+/* Complete compositions are contained without stretching. */
+.hero-media{max-width:480px;aspect-ratio:4/5;max-height:none;background:#e8e2d7}.hero-media>img{object-fit:contain;height:calc(100% - 52px);top:0}.visual-pair>img{object-fit:contain}.journal-image img{object-fit:contain}
+@media(max-width:760px){.hero-media{width:100%;max-width:none;aspect-ratio:1.05;max-height:360px}.hero-media>img{object-fit:contain;background:#e8e2d7}.hero-intro br{display:none}.visual-mist>img,.visual-elixir>img{height:89%}}
 
 /* A single wardrobe recommendation reads as a compact feature. */
 .related-wardrobe{display:block;max-width:780px}.related-wardrobe .product-card{display:grid;grid-template-columns:minmax(160px,280px) minmax(0,1fr);grid-template-rows:auto 1fr auto;column-gap:30px}.related-wardrobe .product-image-link{grid-row:1/4}.related-wardrobe .card-meta{margin-top:5px}.related-wardrobe h3{min-height:0;align-self:center}.related-wardrobe .card-link{align-self:end;justify-self:start}.related-wardrobe .visual-cap>img{max-width:211px}
@@ -28,6 +28,8 @@
 /* V1 review refinement: clearer UI, deliberate campaign frames, scoped contrast. */
 :root{--muted:#c7c1b8;--focus:#e3c68c}
 :focus-visible{outline:3px solid var(--focus);outline-offset:5px}
+/* The fixed skip link can overlay either a light or dark section. */
+.skip-link:focus-visible{outline:3px solid #30251b;outline-offset:2px;box-shadow:0 0 0 6px #f1ece1}
 .light-surface{--paper:#221e19;--muted:#665e53;--line:#30241930;--gold:#745725;--focus:#30251b;background:#e7e1d5;color:var(--paper)}
 .announcement{font-size:13px}.announcement:focus-within{--focus:#30251b}
 .desktop-nav,.header-cta{font-size:14px}.desktop-nav{gap:24px}.header-cta{gap:14px}.nav-social{gap:7px}
@@ -42,6 +44,9 @@
 .visual-purifying>img{width:129px;max-width:75%;max-height:72%}
 .visual-serum>img{width:185px;max-width:76%;max-height:83%}
 .visual-cap>img{width:211px;max-width:88%;height:auto}
+.visual-product-preview,.visual-cap-preview,.visual-quarterzip-preview{padding:0;background:#e8e2d7}
+.visual-product-preview>img,.visual-cap-preview>img,.visual-quarterzip-preview>img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}
+.product-card .product-visual.visual-product-preview,.product-card .product-visual.visual-quarterzip-preview{padding-top:clamp(32px,4vw,44px)}
 .visual-quarterzip>img,.visual-mask>img{width:auto;height:100%;object-fit:contain;max-width:100%}
 .visual-pair>img,.visual-wardrobe-full>img,.visual-maskbox>img,.visual-secondary>img,.visual-native>img{height:100%;width:100%;object-fit:contain;padding:0}
 .status-badge{top:12px;left:12px;font-size:13px;font-weight:500;letter-spacing:0;line-height:1.4;padding:6px 10px;background:#191613;color:#f5efe4}
@@ -69,6 +74,7 @@
 .product-tagline{font-size:14px;color:var(--muted);margin:20px 0 10px}.product-overview{font-size:16px;line-height:1.65;color:var(--paper)}
 .product-notify{margin-top:22px;gap:16px}.availability-note{font-size:14px;margin:12px 0 0}.product-information{padding-top:0}
 .detail-visual{max-height:590px;aspect-ratio:4/5;padding:28px}
+.detail-visual.visual-product-preview,.detail-visual.visual-cap-preview,.detail-visual.visual-quarterzip-preview{padding:0;width:100%}
 .detail-visual.visual-purifying,.detail-visual.visual-serum,.detail-visual.visual-cap{aspect-ratio:1.1;max-height:470px}
 .detail-visual.visual-purifying img{width:129px}.detail-visual.visual-serum img{width:185px}.detail-visual.visual-cap img{width:211px}
 .image-note{font-size:13px;line-height:1.55;margin-top:14px}.gallery-thumb{background:#302a22;border-color:#8a7d68}
@@ -104,6 +110,8 @@
 .breadcrumbs{font-size:13px;padding-top:8px;padding-bottom:12px}.breadcrumbs span:last-child{max-width:65%}
 .product-detail{grid-template-columns:1fr;grid-template-areas:'heading' 'gallery' 'body';gap:24px}.product-heading h1{font-size:34px;line-height:1.15}.product-heading .eyebrow{margin-bottom:8px}.product-heading .status-outline{margin-top:14px}.product-tagline{margin-top:16px}.product-overview{font-size:16px}.product-notify{margin-top:18px;padding:13px 17px;font-size:14px}.availability-note{font-size:13px;margin-top:9px}
 .detail-visual{max-height:350px;aspect-ratio:1;padding:20px}.detail-visual.visual-quarterzip img{padding:0}.detail-visual.visual-purifying,.detail-visual.visual-serum,.detail-visual.visual-cap{max-height:330px;aspect-ratio:1.08}
+.product-visual.visual-product-preview,.product-visual.visual-cap-preview,.product-visual.visual-quarterzip-preview{padding:0}
+.detail-visual.visual-product-preview,.detail-visual.visual-cap-preview,.detail-visual.visual-quarterzip-preview{aspect-ratio:4/5;max-height:380px}
 .image-note{font-size:13px}.product-information{padding:0}.pending-grid{grid-template-columns:1fr}.pending-grid dt,.pending-grid dd{font-size:14px}.product-accordions summary{font-size:16px}.product-facts{margin-bottom:18px}
 .related-wardrobe .product-card{display:block}.related-wardrobe .product-card-link{grid-template-columns:1fr 1fr;column-gap:18px}.related-wardrobe h3{font-size:21px}.related-wardrobe .visual-cap>img{max-width:100%}
 .newsletter p:not(.eyebrow):not(.preview-form-note):not(.form-note){font-size:16px}.footer-top nav{font-size:14px;gap:2px 22px}.footer-bottom{font-size:12px}.prose p{font-size:16px}
@@ -115,3 +123,19 @@
 @media(max-width:760px){.product-card .visual-mask{padding-top:38px}}
 /* Safari's native select otherwise ignores the shared field padding. */
 .field select{appearance:none;-webkit-appearance:none;min-height:52px;padding-right:44px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='m3 6 5 5 5-5' fill='none' stroke='%23ddd1bc' stroke-width='1.5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;background-size:16px}
+
+/* V2 regenerated imagery: full standalone products, no screenshot borders or forced crops. */
+.product-visual.visual-product-preview,.product-visual.visual-cap-preview,.product-visual.visual-quarterzip-preview{background:#f8f7f4;border:0;padding:0}
+.product-card .product-visual.visual-product-preview,.product-card .product-visual.visual-quarterzip-preview{padding:0}
+.detail-visual.visual-campaign-preview,.detail-visual.visual-packaging-preview{padding:0;border:0;background:#f8f7f4;aspect-ratio:4/5}
+.visual-campaign-preview>img,.visual-packaging-preview>img{width:100%;height:100%;object-fit:contain}
+.detail-visual.visual-wardrobe-full{padding:0;border:0;background:#111510}
+.story-image{background:#030403}.story-image img{object-fit:contain;object-position:center}
+.journal-image{padding:0;border:0;aspect-ratio:9/16}.journal-image img{object-fit:contain}
+.hero-media,.hero-media>img{background:#f6f3ee}
+@media(max-width:430px){.journal-image{aspect-ratio:9/16}}
+/* On narrow cards, reserve the badge row so tall bottle closures stay visible. */
+@media(max-width:760px){.product-card .product-visual.visual-product-preview,.product-card .product-visual.visual-cap-preview,.product-card .product-visual.visual-quarterzip-preview{padding-top:32px}}
+@media(min-width:761px) and (max-width:1000px){.product-card .product-visual.visual-product-preview,.product-card .product-visual.visual-cap-preview,.product-card .product-visual.visual-quarterzip-preview{padding-top:44px}}
+
+.story-image picture{display:block;width:100%;height:100%}

@@ -11,7 +11,7 @@
 })();
 (() => {
  const gallery=document.getElementById('product-main-image'),buttons=[...document.querySelectorAll('[data-gallery-src]')];
- const select=button=>{const image=gallery?.querySelector('img');if(!image)return;image.removeAttribute('srcset');image.removeAttribute('sizes');image.src=button.dataset.gallerySrc;image.alt=button.dataset.galleryAlt||'Oxidara campaign image';gallery.className='product-visual detail-visual visual-'+button.dataset.galleryClass;buttons.forEach(b=>{const selected=b===button;b.classList.toggle('selected',selected);b.setAttribute('aria-pressed',String(selected));});};
+ const select=button=>{const image=gallery?.querySelector('img');if(!image)return;image.removeAttribute('srcset');image.removeAttribute('sizes');image.src=button.dataset.gallerySrc;image.alt=button.dataset.galleryAlt||'Oxidara campaign image';gallery.className='product-visual detail-visual visual-'+button.dataset.galleryClass;const caption=document.getElementById('product-image-note');if(caption&&button.dataset.galleryCaption)caption.textContent=button.dataset.galleryCaption;buttons.forEach(b=>{const selected=b===button;b.classList.toggle('selected',selected);b.setAttribute('aria-pressed',String(selected));});};
  buttons.forEach((b,i)=>{b.addEventListener('click',()=>select(b));b.addEventListener('keydown',e=>{let next;if(e.key==='ArrowRight')next=(i+1)%buttons.length;if(e.key==='ArrowLeft')next=(i-1+buttons.length)%buttons.length;if(e.key==='Home')next=0;if(e.key==='End')next=buttons.length-1;if(next!==undefined){e.preventDefault();buttons[next].focus();select(buttons[next]);}});});
 })();
 const normalize=path=>path.replace(/\/+$/,'')||'/';
