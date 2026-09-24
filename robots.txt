@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rjstriker7.github.io/oxidara-beauty-review/sitemap.xml
