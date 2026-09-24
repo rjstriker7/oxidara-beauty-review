@@ -1,7 +1,7 @@
-# Oxidara Beauty V1 review
+# Oxidara Beauty V1.2 review
 
-[Open the website](https://rjstriker7.github.io/oxidara-beauty-review/)
+[Open the review website](https://rjstriker7.github.io/oxidara-beauty-review/)
 
-A static, public review copy. All products are Coming Soon. No prices or checkout. Forms are browser-only demonstrations and never submit or store visitor information. Unverified product details remain visibly marked as placeholders.
+Public static review of all 13 revised pages. All seven products are Coming Soon. No prices, cart or checkout. Forms are visibly disabled demonstrations and do not send or save information. Product facts remain unverified placeholders.
 
-This repository contains the files served by the review website.
+This review copy is separate from oxidarabeauty.com. The brand domain and DNS are unchanged.
