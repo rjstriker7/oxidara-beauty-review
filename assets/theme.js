@@ -15,7 +15,7 @@
  buttons.forEach((b,i)=>{b.addEventListener('click',()=>select(b));b.addEventListener('keydown',e=>{let next;if(e.key==='ArrowRight')next=(i+1)%buttons.length;if(e.key==='ArrowLeft')next=(i-1+buttons.length)%buttons.length;if(e.key==='Home')next=0;if(e.key==='End')next=buttons.length-1;if(next!==undefined){e.preventDefault();buttons[next].focus();select(buttons[next]);}});});
 })();
 const normalize=path=>path.replace(/\/+$/,'')||'/';
-document.querySelectorAll('.site-header nav a').forEach(a=>{if(normalize(new URL(a.href).pathname)===normalize(location.pathname))a.setAttribute('aria-current','page');});
+document.querySelectorAll('.site-header nav a').forEach(a=>{if(!a.getAttribute('href').startsWith('#')&&normalize(new URL(a.href).pathname)===normalize(location.pathname))a.setAttribute('aria-current','page');});
 
 // Demo forms have no Shopify submission endpoint; intercept Enter as an extra guard.
 document.addEventListener('submit',event=>{if(event.target.matches('[data-demo-form]'))event.preventDefault();},true);

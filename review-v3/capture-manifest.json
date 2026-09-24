@@ -1,0 +1,1516 @@
+{
+  "revision": "v3-unified-ivory",
+  "date": "2026-09-24T21:49:29.108Z",
+  "published": false,
+  "genuineBrowserCaptures": true,
+  "viewportSizes": [
+    [
+      360,
+      800
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      430,
+      932
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1280,
+      900
+    ],
+    [
+      1440,
+      1000
+    ]
+  ],
+  "captures": [
+    {
+      "page": "home",
+      "file": "captures/home-360.jpg",
+      "viewport": [
+        360,
+        800
+      ],
+      "image": [
+        360,
+        5108
+      ],
+      "sha256": "4c13aa29a22f18c0e477427d72725126d7c47e6258b2e46041b7d14cf0b93320",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "collection",
+      "file": "captures/collection-360.jpg",
+      "viewport": [
+        360,
+        800
+      ],
+      "image": [
+        360,
+        3138
+      ],
+      "sha256": "8481692b8a8d4b8e681b3209d8217b8e33b4f6988f063f573180653cbf1fdc53",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "our-story",
+      "file": "captures/our-story-360.jpg",
+      "viewport": [
+        360,
+        800
+      ],
+      "image": [
+        360,
+        2356
+      ],
+      "sha256": "a8b972cefaa0cd320b638ede0c9c1bda8ca8e7c57587a3fbc5f3120854084943",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "science-ingredients",
+      "file": "captures/science-ingredients-360.jpg",
+      "viewport": [
+        360,
+        800
+      ],
+      "image": [
+        360,
+        2573
+      ],
+      "sha256": "3892e54c94dbc5b9b333eccd3cb175594faf1b1fb92c5ed63ca60a38102a46e6",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "contact",
+      "file": "captures/contact-360.jpg",
+      "viewport": [
+        360,
+        800
+      ],
+      "image": [
+        360,
+        2475
+      ],
+      "sha256": "6e0a726bc6218324d5223e1aac428cfb2679635eb887878f6db8daf31c2007ef",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "privacy",
+      "file": "captures/privacy-360.jpg",
+      "viewport": [
+        360,
+        800
+      ],
+      "image": [
+        360,
+        2063
+      ],
+      "sha256": "4e990d9c6aeed2ac2d59f24e78aacb792434a3fd97b62f48d50ea40d523fe131",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "release-essence-activation-mist",
+      "file": "captures/release-essence-activation-mist-360.jpg",
+      "viewport": [
+        360,
+        800
+      ],
+      "image": [
+        360,
+        3163
+      ],
+      "sha256": "66dcbad4e2c443b3fa69e60af8f9c1e2446eb48949ec6098035c776cd02050e5",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "melt-elixir-oil",
+      "file": "captures/melt-elixir-oil-360.jpg",
+      "viewport": [
+        360,
+        800
+      ],
+      "image": [
+        360,
+        3173
+      ],
+      "sha256": "8c4846ea7c972737b8e4799c960e6d018b6ee3ae5b93400b1213d0b2e2101e7c",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "cryo-refresh-mask",
+      "file": "captures/cryo-refresh-mask-360.jpg",
+      "viewport": [
+        360,
+        800
+      ],
+      "image": [
+        360,
+        3274
+      ],
+      "sha256": "dde43085575387762c9380743cec8bb182f68a77254466837f44ebb7b6b366e4",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "purifying-oil",
+      "file": "captures/purifying-oil-360.jpg",
+      "viewport": [
+        360,
+        800
+      ],
+      "image": [
+        360,
+        3277
+      ],
+      "sha256": "e056c72bbadc405a8a2c601b43bf83a34f62b3b5488ec2903260ad40139e092d",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "luxury-skin-serum",
+      "file": "captures/luxury-skin-serum-360.jpg",
+      "viewport": [
+        360,
+        800
+      ],
+      "image": [
+        360,
+        3229
+      ],
+      "sha256": "bf36e6b621757394675f97290e2befb70fae3a625ad2f2fc76e6b0ebb88c7bf6",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "oxidara-cap",
+      "file": "captures/oxidara-cap-360.jpg",
+      "viewport": [
+        360,
+        800
+      ],
+      "image": [
+        360,
+        2716
+      ],
+      "sha256": "8db0cc92fb32e7c2c116f3856e25cf7f6a54f1698e4649e4e17580cf3c093078",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "oxidara-quarter-zip",
+      "file": "captures/oxidara-quarter-zip-360.jpg",
+      "viewport": [
+        360,
+        800
+      ],
+      "image": [
+        360,
+        2719
+      ],
+      "sha256": "4e77617deb2832798794c231ec98eb4959d8606b88b0f4d7fb040db153585348",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "home",
+      "file": "captures/home-390.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "image": [
+        390,
+        5174
+      ],
+      "sha256": "2bf3cb32786fae9dd8ce8e0faa15aeb6c2a73603524e708082a509bc55576b94",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "collection",
+      "file": "captures/collection-390.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "image": [
+        390,
+        3183
+      ],
+      "sha256": "e56003f42aeffb6b27d1143229659817ed8cb7e0c4e903f8b14022dd88d0de3d",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "our-story",
+      "file": "captures/our-story-390.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "image": [
+        390,
+        2348
+      ],
+      "sha256": "09b587fb9cdb401d55d35804b98d67b2b1ba09683822340ca0a0fddc6d4a1f27",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "science-ingredients",
+      "file": "captures/science-ingredients-390.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "image": [
+        390,
+        2550
+      ],
+      "sha256": "a157e88246014452db22cc8de8ccc2a1694a9423f8edeb058fe9a9665b553cd4",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "contact",
+      "file": "captures/contact-390.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "image": [
+        390,
+        2475
+      ],
+      "sha256": "4a1ceb9f1d1945a8642744c3613fdff9f7aa6a0b8f3631fad5ccc31986bcaa2d",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "privacy",
+      "file": "captures/privacy-390.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "image": [
+        390,
+        2063
+      ],
+      "sha256": "c1e8609d9a22ff931fe9e5bf75aca990fa101dd242cf913284629adc8afcf662",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "release-essence-activation-mist",
+      "file": "captures/release-essence-activation-mist-390.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "image": [
+        390,
+        3234
+      ],
+      "sha256": "88f2385a13168c22c3d4c392e25860e4ed5fedb6f474660a78362fd2f791bde3",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "melt-elixir-oil",
+      "file": "captures/melt-elixir-oil-390.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "image": [
+        390,
+        3244
+      ],
+      "sha256": "57efed319891d67a5e3cf1580cdc9a087bb8e1b40ca6a2377f50c9c09f878453",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "cryo-refresh-mask",
+      "file": "captures/cryo-refresh-mask-390.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "image": [
+        390,
+        3322
+      ],
+      "sha256": "fc778b0240d7e15f360e7bf99868f033fe2b2b1514bec8e1efb402961faaf9e9",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "purifying-oil",
+      "file": "captures/purifying-oil-390.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "image": [
+        390,
+        3299
+      ],
+      "sha256": "8ba841a83475e8f7d8b56020d1ed395add55eeb836b615439ff0537c5882dc1a",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "luxury-skin-serum",
+      "file": "captures/luxury-skin-serum-390.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "image": [
+        390,
+        3299
+      ],
+      "sha256": "62a61b0461236c62ba29928ea8f3c220be98c21a01ab804c4e33efc2efe6ac4a",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "oxidara-cap",
+      "file": "captures/oxidara-cap-390.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "image": [
+        390,
+        2754
+      ],
+      "sha256": "736c16e85e8f58e141e6a3b701cd090de625587185ce93e21a30030b6f64e4bc",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "oxidara-quarter-zip",
+      "file": "captures/oxidara-quarter-zip-390.jpg",
+      "viewport": [
+        390,
+        844
+      ],
+      "image": [
+        390,
+        2756
+      ],
+      "sha256": "db38364dd37cdf23567cb16a14755ef83c6bb1c5ca11f2140c87650d07613181",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "home",
+      "file": "captures/home-430.jpg",
+      "viewport": [
+        430,
+        932
+      ],
+      "image": [
+        430,
+        5286
+      ],
+      "sha256": "9bf95d19f6b84229e8383f8f2f7d2053a2aed6e99e00d2c968f3ab6692819467",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "collection",
+      "file": "captures/collection-430.jpg",
+      "viewport": [
+        430,
+        932
+      ],
+      "image": [
+        430,
+        3245
+      ],
+      "sha256": "44d6665788b312d6b609f709c04b2a7ce22af68c346cb3724a4bb93502458393",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "our-story",
+      "file": "captures/our-story-430.jpg",
+      "viewport": [
+        430,
+        932
+      ],
+      "image": [
+        430,
+        2315
+      ],
+      "sha256": "16cf352bd8df2e4ab0623e5122bcd561c2abb9ed7d7f80f249f41a0eb26e9473",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "science-ingredients",
+      "file": "captures/science-ingredients-430.jpg",
+      "viewport": [
+        430,
+        932
+      ],
+      "image": [
+        430,
+        2396
+      ],
+      "sha256": "ac42385d1e381795f31a268efc938890f1766e18ce5d44f93407ca7ffe0c159f",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "contact",
+      "file": "captures/contact-430.jpg",
+      "viewport": [
+        430,
+        932
+      ],
+      "image": [
+        430,
+        2399
+      ],
+      "sha256": "7fd829e73c991b174ad5134d3cbe06c847f0d38532a96855b847bb5818316649",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "privacy",
+      "file": "captures/privacy-430.jpg",
+      "viewport": [
+        430,
+        932
+      ],
+      "image": [
+        430,
+        1979
+      ],
+      "sha256": "4b6523614ce760d53177daaef7086a8cbd306b4bb9247a8fa9872b1700c7863c",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "release-essence-activation-mist",
+      "file": "captures/release-essence-activation-mist-430.jpg",
+      "viewport": [
+        430,
+        932
+      ],
+      "image": [
+        430,
+        3296
+      ],
+      "sha256": "7b930462510058330ca8742653f0739aab22380c3a83212c1738eabd3a6dffb8",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "melt-elixir-oil",
+      "file": "captures/melt-elixir-oil-430.jpg",
+      "viewport": [
+        430,
+        932
+      ],
+      "image": [
+        430,
+        3281
+      ],
+      "sha256": "579590d3b2ef71440097d06e1a95129e669fee890b6d681813c2c7b59a10a4e9",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "cryo-refresh-mask",
+      "file": "captures/cryo-refresh-mask-430.jpg",
+      "viewport": [
+        430,
+        932
+      ],
+      "image": [
+        430,
+        3384
+      ],
+      "sha256": "27974ebe234928ac4610a06f684a1206efb41e253ec7b33672a01b843f06a3d4",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "purifying-oil",
+      "file": "captures/purifying-oil-430.jpg",
+      "viewport": [
+        430,
+        932
+      ],
+      "image": [
+        430,
+        3361
+      ],
+      "sha256": "70cb6e7bdcd90f2faef2c353c2774d832b4b3554cd386985cd3c1796de87444a",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "luxury-skin-serum",
+      "file": "captures/luxury-skin-serum-430.jpg",
+      "viewport": [
+        430,
+        932
+      ],
+      "image": [
+        430,
+        3361
+      ],
+      "sha256": "1e1a844d69b91bf925b4e517dce9f8e4ed26bb38af6450a0b668576c85be84b0",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "oxidara-cap",
+      "file": "captures/oxidara-cap-430.jpg",
+      "viewport": [
+        430,
+        932
+      ],
+      "image": [
+        430,
+        2766
+      ],
+      "sha256": "aa4f7b11a9b045e67aa97a22f721926c255f4ed386a3b5acbf01e5c49b8932e1",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "oxidara-quarter-zip",
+      "file": "captures/oxidara-quarter-zip-430.jpg",
+      "viewport": [
+        430,
+        932
+      ],
+      "image": [
+        430,
+        2769
+      ],
+      "sha256": "20b0266b0dea0116c8d8c314c6e1d81e44e4ca89ead0e06d82ac2118b86a1234",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "home",
+      "file": "captures/home-768.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "image": [
+        768,
+        4594
+      ],
+      "sha256": "b285ba845206b656798125bba433cdfaf22ff0b4f5ed7f8e42400ab312b66a23",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "collection",
+      "file": "captures/collection-768.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "image": [
+        768,
+        2641
+      ],
+      "sha256": "81e5f5aa5b2038688b37c3b78e369f89dd5ff7f2dc4065a1b5a544dca7af3a3c",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "our-story",
+      "file": "captures/our-story-768.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "image": [
+        768,
+        1829
+      ],
+      "sha256": "0dbf7fa44be005d4ec578071ceefcea8347d1bb3ef8bf05cf264ac5f61a2c3a0",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "science-ingredients",
+      "file": "captures/science-ingredients-768.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "image": [
+        768,
+        2083
+      ],
+      "sha256": "b429d63368f9005f97374891f57551c76552e7e6ad156a7b1aa22d6418baa5c6",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "contact",
+      "file": "captures/contact-768.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "image": [
+        768,
+        1843
+      ],
+      "sha256": "caf93fc84c0f1ba5a1a335f8bb1f649c6424bc9f40fcf6b0adfe8688e655a167",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "privacy",
+      "file": "captures/privacy-768.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "image": [
+        768,
+        1753
+      ],
+      "sha256": "301dd4c64b33805909c72adb182fb5ba7fda1ab227347a7e8124d55259f40804",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "release-essence-activation-mist",
+      "file": "captures/release-essence-activation-mist-768.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "image": [
+        768,
+        2210
+      ],
+      "sha256": "67dbf90e31fbafe1fd06dba550058eb2bcfc314f8e7cbc87fa8271adba48ccb8",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "melt-elixir-oil",
+      "file": "captures/melt-elixir-oil-768.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "image": [
+        768,
+        2234
+      ],
+      "sha256": "66f83aa06bb23ae93de57eee46850da9fe0cb5099c60913e991fca2994df598e",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "cryo-refresh-mask",
+      "file": "captures/cryo-refresh-mask-768.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "image": [
+        768,
+        2281
+      ],
+      "sha256": "41b9f4ee6a9c6c5957f0f3be3956a1dfe22dcbac497844413b4b68c7bbce1708",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "purifying-oil",
+      "file": "captures/purifying-oil-768.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "image": [
+        768,
+        2257
+      ],
+      "sha256": "4fce88bba9f7f5f5a7e538275b2d77b29073c19d5867500633d4715b119085ec",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "luxury-skin-serum",
+      "file": "captures/luxury-skin-serum-768.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "image": [
+        768,
+        2237
+      ],
+      "sha256": "2360925d2e991763d0e063a2ce759cf990aa218620a49bd9502bcb0853c9f365",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "oxidara-cap",
+      "file": "captures/oxidara-cap-768.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "image": [
+        768,
+        2124
+      ],
+      "sha256": "42a8b6ab253eabf2ea5b491a125928019b727cdf15bbc2d0ea3ff8c3bacb58df",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "oxidara-quarter-zip",
+      "file": "captures/oxidara-quarter-zip-768.jpg",
+      "viewport": [
+        768,
+        1024
+      ],
+      "image": [
+        768,
+        2148
+      ],
+      "sha256": "9778e5dd583cf60b9f7069b46103752fa40ea19018002d6d2cfe0363e3bf3a57",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "home",
+      "file": "captures/home-1280.jpg",
+      "viewport": [
+        1280,
+        900
+      ],
+      "image": [
+        1280,
+        4407
+      ],
+      "sha256": "91919389a3ea1a0b81b4240588ab6e2e125f7719ec5671ecde7ec432af0db4fa",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "collection",
+      "file": "captures/collection-1280.jpg",
+      "viewport": [
+        1280,
+        900
+      ],
+      "image": [
+        1280,
+        3066
+      ],
+      "sha256": "bd63b8b2874625e28c2f5452bdbb36006776941277104b1371fe13edd800c403",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "our-story",
+      "file": "captures/our-story-1280.jpg",
+      "viewport": [
+        1280,
+        900
+      ],
+      "image": [
+        1280,
+        1715
+      ],
+      "sha256": "994c6d9b84e0ee9c95829c2fa30166ef67b5941044b4d2ea734bf260ad1d0d53",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "science-ingredients",
+      "file": "captures/science-ingredients-1280.jpg",
+      "viewport": [
+        1280,
+        900
+      ],
+      "image": [
+        1280,
+        1883
+      ],
+      "sha256": "b16c04d6ec407f791d18a96ea8d9fc885012f571711ddf4c862eb73ca75045ae",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "contact",
+      "file": "captures/contact-1280.jpg",
+      "viewport": [
+        1280,
+        900
+      ],
+      "image": [
+        1280,
+        1592
+      ],
+      "sha256": "097c3633e81bc85feef9bdb3551b8072f036111f418551b2d56230b665c935fb",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "privacy",
+      "file": "captures/privacy-1280.jpg",
+      "viewport": [
+        1280,
+        900
+      ],
+      "image": [
+        1280,
+        1460
+      ],
+      "sha256": "d1290f87e0f03634d7849048e063c719c7cbf5898aa4eda5a7bacff0dc012c33",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "release-essence-activation-mist",
+      "file": "captures/release-essence-activation-mist-1280.jpg",
+      "viewport": [
+        1280,
+        900
+      ],
+      "image": [
+        1280,
+        2524
+      ],
+      "sha256": "6836c333a51c6625a2c7ceae1c60af67ffa6d8457b7acbfe44d923dd07a1de5a",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "melt-elixir-oil",
+      "file": "captures/melt-elixir-oil-1280.jpg",
+      "viewport": [
+        1280,
+        900
+      ],
+      "image": [
+        1280,
+        2524
+      ],
+      "sha256": "d020bed2325c39d29ce6dc1a1c6c5a9ec2dfa22fdb5a6cc79e22c36712ccb8a1",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "cryo-refresh-mask",
+      "file": "captures/cryo-refresh-mask-1280.jpg",
+      "viewport": [
+        1280,
+        900
+      ],
+      "image": [
+        1280,
+        2524
+      ],
+      "sha256": "731bfb5cdb979b75284b2aa09f3c3841e236af2bdf2d01bf04c6191642b4e0b3",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "purifying-oil",
+      "file": "captures/purifying-oil-1280.jpg",
+      "viewport": [
+        1280,
+        900
+      ],
+      "image": [
+        1280,
+        2524
+      ],
+      "sha256": "f1eed1f337d8c23f656719d5621326f47118bc3c2f0636d135594d36e69c035c",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "luxury-skin-serum",
+      "file": "captures/luxury-skin-serum-1280.jpg",
+      "viewport": [
+        1280,
+        900
+      ],
+      "image": [
+        1280,
+        2524
+      ],
+      "sha256": "cb7653ec0a3203b9c9fad2fddc6657a13d42cecf8e31880fcb0e1e91efdc2df7",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "oxidara-cap",
+      "file": "captures/oxidara-cap-1280.jpg",
+      "viewport": [
+        1280,
+        900
+      ],
+      "image": [
+        1280,
+        2240
+      ],
+      "sha256": "e584417b28d0a1ce11a828db14df31ae07aaccc3da5f4859cdec75f24b1c6ade",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "oxidara-quarter-zip",
+      "file": "captures/oxidara-quarter-zip-1280.jpg",
+      "viewport": [
+        1280,
+        900
+      ],
+      "image": [
+        1280,
+        2240
+      ],
+      "sha256": "76505c268f92f18e72210761367f714c8e091a7b888e8784e8ab3c91c1a083ac",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "home",
+      "file": "captures/home-1440.jpg",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "image": [
+        1440,
+        4493
+      ],
+      "sha256": "00984abfea309be173fdc824af40daa0dac7228b49e479880c71c1418b7fe790",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "collection",
+      "file": "captures/collection-1440.jpg",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "image": [
+        1440,
+        3253
+      ],
+      "sha256": "c95eabe7224d507c42977423d900f5fe7a8b5cac94aced681acd7583efc590e3",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "our-story",
+      "file": "captures/our-story-1440.jpg",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "image": [
+        1440,
+        1735
+      ],
+      "sha256": "085d2cc3f4f70f22c24952cbeaa1c789bceaf13d3ccb2a80697f90b690c43160",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "science-ingredients",
+      "file": "captures/science-ingredients-1440.jpg",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "image": [
+        1440,
+        1899
+      ],
+      "sha256": "b6c044eb799070b0f4881bf7cc6189e9fc4ca4fe997d56334ecc2c33fa6bbf83",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "contact",
+      "file": "captures/contact-1440.jpg",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "image": [
+        1440,
+        1600
+      ],
+      "sha256": "9056047ca53ab008136caea3c3ece5a5d4a2ac0d1f1958e69062ef562b932650",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "privacy",
+      "file": "captures/privacy-1440.jpg",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "image": [
+        1440,
+        1460
+      ],
+      "sha256": "3ef12587dbd1a97da6b84ac34fbf346e74b2a5cb0994494a50eb63b8cd3284ba",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "release-essence-activation-mist",
+      "file": "captures/release-essence-activation-mist-1440.jpg",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "image": [
+        1440,
+        2596
+      ],
+      "sha256": "a4976a2a5a6caece0782e8233d63497c550e4ec120ce69efa76a0f029df6b60d",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "melt-elixir-oil",
+      "file": "captures/melt-elixir-oil-1440.jpg",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "image": [
+        1440,
+        2596
+      ],
+      "sha256": "e4e66a5bc7955ca1c72c3fd2f977a41e822292a3cfecb06734fa7874c109b911",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "cryo-refresh-mask",
+      "file": "captures/cryo-refresh-mask-1440.jpg",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "image": [
+        1440,
+        2596
+      ],
+      "sha256": "6d08ed101da0f79e11192e8aa031ed7b8f57c36955ad632adf3810a3661bb63a",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "purifying-oil",
+      "file": "captures/purifying-oil-1440.jpg",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "image": [
+        1440,
+        2596
+      ],
+      "sha256": "fb68c19aa2d47df80394bd97b14167793b77aa204239e9340111bafd745f4ad1",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "luxury-skin-serum",
+      "file": "captures/luxury-skin-serum-1440.jpg",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "image": [
+        1440,
+        2596
+      ],
+      "sha256": "ffaa9886aa4ccb92cc340c2a3757a9d047fe63fb3624c840d85fe00cb8c6b5dc",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "oxidara-cap",
+      "file": "captures/oxidara-cap-1440.jpg",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "image": [
+        1440,
+        2251
+      ],
+      "sha256": "475027b036f334490a3774c27f8c10364395b439b8a6b0e8ab1210965bbef027",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "page": "oxidara-quarter-zip",
+      "file": "captures/oxidara-quarter-zip-1440.jpg",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "image": [
+        1440,
+        2251
+      ],
+      "sha256": "98fd997a2b734c51824dfc10f5ca8b440a158c0f05a920849d5ede4af18fc0e2",
+      "browser": "Chrome",
+      "captureType": "Full page",
+      "fonts": "loaded",
+      "unloadedImages": 0,
+      "failedImages": 0,
+      "horizontalOverflow": false
+    }
+  ]
+}
