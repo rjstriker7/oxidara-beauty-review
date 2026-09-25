@@ -1,0 +1,1474 @@
+{
+  "revision": "V4.3",
+  "date": "2026-09-25",
+  "browser": "Chrome",
+  "responsiveMatrix": [
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "BeautyBeyond Earth."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/",
+      "revision": "v4-3-refinement",
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "The collection."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/collections/all",
+      "revision": "v4-3-refinement",
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "BeautyBeyond Earth."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/our-story",
+      "revision": "v4-3-refinement",
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Beauty inthe details."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/science-ingredients",
+      "revision": "v4-3-refinement",
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Get in touch."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/contact",
+      "revision": "v4-3-refinement",
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Privacy information."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/privacy",
+      "revision": "v4-3-refinement",
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "One world.Two new perspectives."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/womens-wardrobe",
+      "revision": "v4-3-refinement",
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Release Essence Activation Mist"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/release-essence-activation-mist",
+      "revision": "v4-3-refinement",
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Melt Elixir Oil"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/melt-elixir-oil",
+      "revision": "v4-3-refinement",
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Cryo-Refresh Mask"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/cryo-refresh-mask",
+      "revision": "v4-3-refinement",
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Purifying Oil"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/purifying-oil",
+      "revision": "v4-3-refinement",
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Luxury Skin Serum"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/luxury-skin-serum",
+      "revision": "v4-3-refinement",
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Oxidara Cap"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/oxidara-cap",
+      "revision": "v4-3-refinement",
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Oxidara Quarter-Zip"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/oxidara-quarter-zip",
+      "revision": "v4-3-refinement",
+      "width": 1440
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "BeautyBeyond Earth."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/",
+      "revision": "v4-3-refinement",
+      "width": 390
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "The collection."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/collections/all",
+      "revision": "v4-3-refinement",
+      "width": 390
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "BeautyBeyond Earth."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/our-story",
+      "revision": "v4-3-refinement",
+      "width": 390
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Beauty inthe details."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/science-ingredients",
+      "revision": "v4-3-refinement",
+      "width": 390
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Get in touch."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/contact",
+      "revision": "v4-3-refinement",
+      "width": 390
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Privacy information."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/privacy",
+      "revision": "v4-3-refinement",
+      "width": 390
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "One world.Two new perspectives."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/womens-wardrobe",
+      "revision": "v4-3-refinement",
+      "width": 390
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Release Essence Activation Mist"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/release-essence-activation-mist",
+      "revision": "v4-3-refinement",
+      "width": 390
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Melt Elixir Oil"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/melt-elixir-oil",
+      "revision": "v4-3-refinement",
+      "width": 390
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Cryo-Refresh Mask"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/cryo-refresh-mask",
+      "revision": "v4-3-refinement",
+      "width": 390
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Purifying Oil"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/purifying-oil",
+      "revision": "v4-3-refinement",
+      "width": 390
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Luxury Skin Serum"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/luxury-skin-serum",
+      "revision": "v4-3-refinement",
+      "width": 390
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Oxidara Cap"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/oxidara-cap",
+      "revision": "v4-3-refinement",
+      "width": 390
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Oxidara Quarter-Zip"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/oxidara-quarter-zip",
+      "revision": "v4-3-refinement",
+      "width": 390
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "BeautyBeyond Earth."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/",
+      "revision": "v4-3-refinement",
+      "width": 360
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "The collection."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/collections/all",
+      "revision": "v4-3-refinement",
+      "width": 360
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "BeautyBeyond Earth."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/our-story",
+      "revision": "v4-3-refinement",
+      "width": 360
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Beauty inthe details."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/science-ingredients",
+      "revision": "v4-3-refinement",
+      "width": 360
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Get in touch."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/contact",
+      "revision": "v4-3-refinement",
+      "width": 360
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Privacy information."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/privacy",
+      "revision": "v4-3-refinement",
+      "width": 360
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "One world.Two new perspectives."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/womens-wardrobe",
+      "revision": "v4-3-refinement",
+      "width": 360
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Release Essence Activation Mist"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/release-essence-activation-mist",
+      "revision": "v4-3-refinement",
+      "width": 360
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Melt Elixir Oil"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/melt-elixir-oil",
+      "revision": "v4-3-refinement",
+      "width": 360
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Cryo-Refresh Mask"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/cryo-refresh-mask",
+      "revision": "v4-3-refinement",
+      "width": 360
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Purifying Oil"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/purifying-oil",
+      "revision": "v4-3-refinement",
+      "width": 360
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Luxury Skin Serum"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/luxury-skin-serum",
+      "revision": "v4-3-refinement",
+      "width": 360
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Oxidara Cap"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/oxidara-cap",
+      "revision": "v4-3-refinement",
+      "width": 360
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Oxidara Quarter-Zip"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/oxidara-quarter-zip",
+      "revision": "v4-3-refinement",
+      "width": 360
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "BeautyBeyond Earth."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/",
+      "revision": "v4-3-refinement",
+      "width": 430
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "The collection."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/collections/all",
+      "revision": "v4-3-refinement",
+      "width": 430
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "BeautyBeyond Earth."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/our-story",
+      "revision": "v4-3-refinement",
+      "width": 430
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Beauty inthe details."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/science-ingredients",
+      "revision": "v4-3-refinement",
+      "width": 430
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Get in touch."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/contact",
+      "revision": "v4-3-refinement",
+      "width": 430
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Privacy information."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/privacy",
+      "revision": "v4-3-refinement",
+      "width": 430
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "One world.Two new perspectives."
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/pages/womens-wardrobe",
+      "revision": "v4-3-refinement",
+      "width": 430
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Release Essence Activation Mist"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/release-essence-activation-mist",
+      "revision": "v4-3-refinement",
+      "width": 430
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Melt Elixir Oil"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/melt-elixir-oil",
+      "revision": "v4-3-refinement",
+      "width": 430
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Cryo-Refresh Mask"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/cryo-refresh-mask",
+      "revision": "v4-3-refinement",
+      "width": 430
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Purifying Oil"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/purifying-oil",
+      "revision": "v4-3-refinement",
+      "width": 430
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Luxury Skin Serum"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/luxury-skin-serum",
+      "revision": "v4-3-refinement",
+      "width": 430
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Oxidara Cap"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/oxidara-cap",
+      "revision": "v4-3-refinement",
+      "width": 430
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Oxidara Quarter-Zip"
+      ],
+      "height": 844,
+      "overflow": false,
+      "page": "/products/oxidara-quarter-zip",
+      "revision": "v4-3-refinement",
+      "width": 430
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "BeautyBeyond Earth."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/",
+      "revision": "v4-3-refinement",
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "The collection."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/collections/all",
+      "revision": "v4-3-refinement",
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "BeautyBeyond Earth."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/our-story",
+      "revision": "v4-3-refinement",
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Beauty inthe details."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/science-ingredients",
+      "revision": "v4-3-refinement",
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Get in touch."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/contact",
+      "revision": "v4-3-refinement",
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Privacy information."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/privacy",
+      "revision": "v4-3-refinement",
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "One world.Two new perspectives."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/womens-wardrobe",
+      "revision": "v4-3-refinement",
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Release Essence Activation Mist"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/release-essence-activation-mist",
+      "revision": "v4-3-refinement",
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Melt Elixir Oil"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/melt-elixir-oil",
+      "revision": "v4-3-refinement",
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Cryo-Refresh Mask"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/cryo-refresh-mask",
+      "revision": "v4-3-refinement",
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Purifying Oil"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/purifying-oil",
+      "revision": "v4-3-refinement",
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Luxury Skin Serum"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/luxury-skin-serum",
+      "revision": "v4-3-refinement",
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Oxidara Cap"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/oxidara-cap",
+      "revision": "v4-3-refinement",
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Oxidara Quarter-Zip"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/oxidara-quarter-zip",
+      "revision": "v4-3-refinement",
+      "width": 768
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "BeautyBeyond Earth."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/",
+      "revision": "v4-3-refinement",
+      "width": 1280
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "The collection."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/collections/all",
+      "revision": "v4-3-refinement",
+      "width": 1280
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "BeautyBeyond Earth."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/our-story",
+      "revision": "v4-3-refinement",
+      "width": 1280
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Beauty inthe details."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/science-ingredients",
+      "revision": "v4-3-refinement",
+      "width": 1280
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Get in touch."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/contact",
+      "revision": "v4-3-refinement",
+      "width": 1280
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Privacy information."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/privacy",
+      "revision": "v4-3-refinement",
+      "width": 1280
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "One world.Two new perspectives."
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/pages/womens-wardrobe",
+      "revision": "v4-3-refinement",
+      "width": 1280
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Release Essence Activation Mist"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/release-essence-activation-mist",
+      "revision": "v4-3-refinement",
+      "width": 1280
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Melt Elixir Oil"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/melt-elixir-oil",
+      "revision": "v4-3-refinement",
+      "width": 1280
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Cryo-Refresh Mask"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/cryo-refresh-mask",
+      "revision": "v4-3-refinement",
+      "width": 1280
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Purifying Oil"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/purifying-oil",
+      "revision": "v4-3-refinement",
+      "width": 1280
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 3,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Luxury Skin Serum"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/luxury-skin-serum",
+      "revision": "v4-3-refinement",
+      "width": 1280
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Oxidara Cap"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/oxidara-cap",
+      "revision": "v4-3-refinement",
+      "width": 1280
+    },
+    {
+      "clipped": [],
+      "enabledSubmit": 0,
+      "examples": 0,
+      "failed": [],
+      "fonts": "loaded",
+      "h1": [
+        "Oxidara Quarter-Zip"
+      ],
+      "height": 1000,
+      "overflow": false,
+      "page": "/products/oxidara-quarter-zip",
+      "revision": "v4-3-refinement",
+      "width": 1280
+    }
+  ],
+  "desktopProducts": [
+    {
+      "p": "/products/release-essence-activation-mist",
+      "accordionOpened": true,
+      "gallery": {
+        "caption": "Reconstructed studio preview · Final packaging and label details unconfirmed.",
+        "focus": "rgb(36, 35, 33) solid 2px",
+        "selected": 1,
+        "src": "/assets/v2-oxidara-mist-melt-studio-duo-02.webp"
+      },
+      "failed": [],
+      "unloaded": []
+    },
+    {
+      "p": "/products/melt-elixir-oil",
+      "accordionOpened": true,
+      "gallery": {
+        "caption": "Reconstructed studio preview · Final packaging and label details unconfirmed.",
+        "focus": "rgb(36, 35, 33) solid 2px",
+        "selected": 1,
+        "src": "/assets/v2-oxidara-mist-melt-studio-duo-02.webp"
+      },
+      "failed": [],
+      "unloaded": []
+    },
+    {
+      "p": "/products/cryo-refresh-mask",
+      "accordionOpened": true,
+      "gallery": {
+        "caption": "Reconstructed packaging preview · Actual packaging and mask function unconfirmed. Unverified claims omitted.",
+        "focus": "rgb(36, 35, 33) solid 2px",
+        "selected": 1,
+        "src": "/assets/v2-oxidara-cryo-mask-packaging-preview-01.webp"
+      },
+      "failed": [],
+      "unloaded": []
+    },
+    {
+      "p": "/products/purifying-oil",
+      "accordionOpened": true,
+      "gallery": {
+        "caption": "Reconstructed campaign preview · Bottle, closure and label details require owner approval.",
+        "focus": "rgb(36, 35, 33) solid 2px",
+        "selected": 1,
+        "src": "/assets/v2-oxidara-purifying-fire-campaign-01.webp"
+      },
+      "failed": [],
+      "unloaded": []
+    },
+    {
+      "p": "/products/luxury-skin-serum",
+      "accordionOpened": true,
+      "gallery": {
+        "caption": "Reconstructed campaign preview · Final packaging and label details unconfirmed.",
+        "focus": "rgb(36, 35, 33) solid 2px",
+        "selected": 1,
+        "src": "/assets/v2-oxidara-serum-marble-campaign-01.webp"
+      },
+      "failed": [],
+      "unloaded": []
+    },
+    {
+      "p": "/products/oxidara-cap",
+      "accordionOpened": true,
+      "gallery": {
+        "caption": "Reconstructed front view · Fine seams, embroidery and construction require owner approval.",
+        "focus": "rgb(36, 35, 33) solid 2px",
+        "selected": 1,
+        "src": "/assets/v2-oxidara-cap-front-studio-03.webp"
+      },
+      "failed": [],
+      "unloaded": []
+    },
+    {
+      "p": "/products/oxidara-quarter-zip",
+      "accordionOpened": true,
+      "gallery": {
+        "caption": "Recreated outdoor campaign · Garment details and likeness require owner approval.",
+        "focus": "rgb(36, 35, 33) solid 2px",
+        "selected": 1,
+        "src": "/assets/v2-oxidara-wardrobe-outdoor-campaign-01.webp"
+      },
+      "failed": [],
+      "unloaded": []
+    }
+  ],
+  "mobileProducts": [
+    {
+      "p": "/products/release-essence-activation-mist",
+      "accordionOpened": true,
+      "gallerySelected": "true",
+      "failed": [],
+      "unloaded": []
+    },
+    {
+      "p": "/products/melt-elixir-oil",
+      "accordionOpened": true,
+      "gallerySelected": "true",
+      "failed": [],
+      "unloaded": []
+    },
+    {
+      "p": "/products/cryo-refresh-mask",
+      "accordionOpened": true,
+      "gallerySelected": "true",
+      "failed": [],
+      "unloaded": []
+    },
+    {
+      "p": "/products/purifying-oil",
+      "accordionOpened": true,
+      "gallerySelected": "true",
+      "failed": [],
+      "unloaded": []
+    },
+    {
+      "p": "/products/luxury-skin-serum",
+      "accordionOpened": true,
+      "gallerySelected": "true",
+      "failed": [],
+      "unloaded": []
+    },
+    {
+      "p": "/products/oxidara-cap",
+      "accordionOpened": true,
+      "gallerySelected": "true",
+      "failed": [],
+      "unloaded": []
+    },
+    {
+      "p": "/products/oxidara-quarter-zip",
+      "accordionOpened": true,
+      "gallerySelected": "true",
+      "failed": [],
+      "unloaded": []
+    }
+  ],
+  "womensGalleries": [
+    {
+      "name": "Women’s Cropped Quarter-Zip images",
+      "garment": "true",
+      "modelRestored": "true"
+    },
+    {
+      "name": "Women’s Full-Zip Jacket images",
+      "garment": "true",
+      "modelRestored": "true"
+    }
+  ],
+  "heroSpacingAfterFix": [
+    {
+      "gap": 29,
+      "overflow": false,
+      "panel": "1 of 3: Beauty Beyond Earth",
+      "width": 360
+    },
+    {
+      "gap": 29,
+      "overflow": false,
+      "panel": "2 of 3: Faith forged in fire",
+      "width": 360
+    },
+    {
+      "gap": 29,
+      "overflow": false,
+      "panel": "3 of 3: Release Essence campaign",
+      "width": 360
+    },
+    {
+      "gap": 22,
+      "overflow": false,
+      "panel": "1 of 3: Beauty Beyond Earth",
+      "width": 390
+    },
+    {
+      "gap": 22,
+      "overflow": false,
+      "panel": "2 of 3: Faith forged in fire",
+      "width": 390
+    },
+    {
+      "gap": 22,
+      "overflow": false,
+      "panel": "3 of 3: Release Essence campaign",
+      "width": 390
+    },
+    {
+      "gap": 22,
+      "overflow": false,
+      "panel": "1 of 3: Beauty Beyond Earth",
+      "width": 430
+    },
+    {
+      "gap": 22,
+      "overflow": false,
+      "panel": "2 of 3: Faith forged in fire",
+      "width": 430
+    },
+    {
+      "gap": 22,
+      "overflow": false,
+      "panel": "3 of 3: Release Essence campaign",
+      "width": 430
+    }
+  ],
+  "safari": "Desktop native-window spot check: hero controls, Collection navigation, Mist gallery and accordion, Back and refresh. Mobile Safari and physical devices not tested.",
+  "submissionsPerformed": 0
+}

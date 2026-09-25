@@ -1,0 +1,111 @@
+{
+  "revision": "V4.3",
+  "mode": "Built-in image generation; no external fallback",
+  "originalsPreserved": true,
+  "creativeRetouching": "None; Sharp only resized/compressed separate WebP exports.",
+  "exactPrompts": [
+    "../../oxidara-v4-3-assets/editorial-prompts.json",
+    "V4-3-WARDROBE-IMAGE-PROMPTS.md"
+  ],
+  "assets": [
+    {
+      "stem": "v4-3-oxidara-beauty-smile-01",
+      "references": [
+        "../../oxidara-v4-1-assets/v4-1-oxidara-mist-model-01.png",
+        "v2-oxidara-release-mist-packshot-01.webp"
+      ],
+      "inserted": "Home human beauty editorial",
+      "approval": "Adult model appearance, hand/bottle scale, reconstructed labeling and styling.",
+      "nativeWidth": 1122,
+      "nativeHeight": 1402,
+      "master": "/Users/rodolfomacmini/Documents/Codex/2026-09-23/ok-x20/outputs/oxidara-v4-3-assets/v4-3-oxidara-beauty-smile-01.png",
+      "ownerCopy": "/Users/rodolfomacmini/Desktop/Oxidara_V2_Assets/07_Needs_Owner_Approval/V4-3/v4-3-oxidara-beauty-smile-01.png",
+      "sha256": "ac98c9973f14f4a5c74d2fade1d21e9bf0af2d976cb14ecfe4aaa449a877426a",
+      "nativeResolutionLimit": "Below the earlier 2000px/2400px production-master target. No upscaling used.",
+      "webVersions": [
+        "v4-3-oxidara-beauty-smile-01-280.webp",
+        "v4-3-oxidara-beauty-smile-01-560.webp",
+        "v4-3-oxidara-beauty-smile-01-840.webp",
+        "v4-3-oxidara-beauty-smile-01.webp"
+      ]
+    },
+    {
+      "stem": "v4-3-ingredient-textures",
+      "references": [],
+      "inserted": "Science & Ingredients opening",
+      "approval": "Illustrative cosmetic texture image; not actual Oxidara formulas or ingredients.",
+      "nativeWidth": 1536,
+      "nativeHeight": 1024,
+      "master": "/Users/rodolfomacmini/Documents/Codex/2026-09-23/ok-x20/outputs/oxidara-v4-3-assets/v4-3-ingredient-textures.png",
+      "ownerCopy": "/Users/rodolfomacmini/Desktop/Oxidara_V2_Assets/07_Needs_Owner_Approval/V4-3/v4-3-ingredient-textures.png",
+      "sha256": "1d0e813f1a4b97cfeace0ee440a581b615ea675621cedf212fdfd7b88f88c029",
+      "nativeResolutionLimit": "Below the earlier 2000px/2400px production-master target. No upscaling used.",
+      "webVersions": [
+        "v4-3-ingredient-textures-280.webp",
+        "v4-3-ingredient-textures-560.webp",
+        "v4-3-ingredient-textures-840.webp",
+        "v4-3-ingredient-textures.webp"
+      ]
+    },
+    {
+      "stem": "v4-3-red-earth-horizon",
+      "references": [],
+      "inserted": "Our Story opening",
+      "approval": "Imagined campaign landscape; not a photograph of Mars or an ingredient provenance claim.",
+      "nativeWidth": 1536,
+      "nativeHeight": 1024,
+      "master": "/Users/rodolfomacmini/Documents/Codex/2026-09-23/ok-x20/outputs/oxidara-v4-3-assets/v4-3-red-earth-horizon.png",
+      "ownerCopy": "/Users/rodolfomacmini/Desktop/Oxidara_V2_Assets/07_Needs_Owner_Approval/V4-3/v4-3-red-earth-horizon.png",
+      "sha256": "142037df8e1a0c301441c1d903f71aab93b82df27f23b317f6a170ba37475e2f",
+      "nativeResolutionLimit": "Below the earlier 2000px/2400px production-master target. No upscaling used.",
+      "webVersions": [
+        "v4-3-red-earth-horizon-280.webp",
+        "v4-3-red-earth-horizon-560.webp",
+        "v4-3-red-earth-horizon-840.webp",
+        "v4-3-red-earth-horizon.webp"
+      ]
+    },
+    {
+      "stem": "v4-3-oxidara-womens-quarterzip-active-01",
+      "references": [
+        "v4-1-oxidara-womens-quarterzip-model-01.webp",
+        "v2-oxidara-wardrobe-outdoor-campaign-01.webp"
+      ],
+      "inserted": "Home/Collection parallel capsule; women’s concept gallery",
+      "approval": "Proposed garment cut, fit, drape, branding, model and styling. Leggings and bag are styling only.",
+      "nativeWidth": 1122,
+      "nativeHeight": 1402,
+      "master": "/Users/rodolfomacmini/Documents/Codex/2026-09-23/ok-x20/outputs/oxidara-v4-3-assets/v4-3-oxidara-womens-quarterzip-active-01.png",
+      "ownerCopy": "/Users/rodolfomacmini/Desktop/Oxidara_V2_Assets/07_Needs_Owner_Approval/V4-3/v4-3-oxidara-womens-quarterzip-active-01.png",
+      "sha256": "d8712cd50922ab1183ab7b9bbdc48aca61266894a32c8296f5631fce410cb6fb",
+      "nativeResolutionLimit": "Below the earlier 2000px/2400px production-master target. No upscaling used.",
+      "webVersions": [
+        "v4-3-oxidara-womens-quarterzip-active-01-280.webp",
+        "v4-3-oxidara-womens-quarterzip-active-01-560.webp",
+        "v4-3-oxidara-womens-quarterzip-active-01-840.webp",
+        "v4-3-oxidara-womens-quarterzip-active-01.webp"
+      ]
+    },
+    {
+      "stem": "v4-3-oxidara-womens-jacket-active-01",
+      "references": [
+        "v4-1-oxidara-womens-jacket-model-01.webp",
+        "v2-oxidara-wardrobe-outdoor-campaign-01.webp"
+      ],
+      "inserted": "Women’s concept gallery",
+      "approval": "Proposed garment details, fit, model and active pose. Leggings and shoes are styling only.",
+      "nativeWidth": 1122,
+      "nativeHeight": 1402,
+      "master": "/Users/rodolfomacmini/Documents/Codex/2026-09-23/ok-x20/outputs/oxidara-v4-3-assets/v4-3-oxidara-womens-jacket-active-01.png",
+      "ownerCopy": "/Users/rodolfomacmini/Desktop/Oxidara_V2_Assets/07_Needs_Owner_Approval/V4-3/v4-3-oxidara-womens-jacket-active-01.png",
+      "sha256": "c013bbd1afdf69b74de37a8e06e79ce4280ed31dae2f9c17aaadb55eaa0e7862",
+      "nativeResolutionLimit": "Below the earlier 2000px/2400px production-master target. No upscaling used.",
+      "webVersions": [
+        "v4-3-oxidara-womens-jacket-active-01-280.webp",
+        "v4-3-oxidara-womens-jacket-active-01-560.webp",
+        "v4-3-oxidara-womens-jacket-active-01-840.webp",
+        "v4-3-oxidara-womens-jacket-active-01.webp"
+      ]
+    }
+  ]
+}
