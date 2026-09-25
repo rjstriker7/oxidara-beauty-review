@@ -2,7 +2,7 @@
 
 Current revision: **V4.2**, with 14 pages, the original seven Coming Soon products and two proposed women’s designs. The homepage crossfades automatically every six seconds; Mist and Melt model stills remain, while the original portrait film is secondary and click-to-play in the editorial social section. Both women’s concepts now have model/garment galleries. The same native Shopify Liquid sources feed both static snapshots.
 
-Shareable review URL: https://rjstriker7.github.io/oxidara-beauty-review/?review=v4-2-focused-20260924
+Shareable review URL: https://rjstriker7.github.io/oxidara-beauty-review/?review=v4-2-focused-20260924-r2
 
 Current screenshots and review notes: https://rjstriker7.github.io/oxidara-beauty-review/review-v4-2/
 

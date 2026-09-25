@@ -14,7 +14,7 @@
     clip.button.setAttribute('aria-label', `${playing ? 'Pause' : 'Play'} ${clip.label}`);
     clip.action.textContent = playing ? 'Pause film' : 'Play film';
   };
-  const pause = clip => { clip.request++; clip.video.pause(); setState(clip, false); };
+  const pause = clip => { clip.request++; clip.manualActive = false; clip.video.pause(); setState(clip, false); };
   const load = clip => {
     if (clip.video.hasAttribute('src') && !clip.video.error) return;
     const mobile = matchMedia('(max-width: 760px)').matches;
@@ -30,30 +30,54 @@
   const panelHidden = clip => Boolean(clip.root.closest('[data-hero-panel][aria-hidden="true"], [data-hero-panel][hidden]'));
   const visibleNow = clip => {
     const rect = clip.root.getBoundingClientRect();
-    return rect.width > 0 && rect.height > 0 && rect.bottom > 0 && rect.right > 0 &&
-      rect.top < window.innerHeight && rect.left < window.innerWidth;
+    if (rect.width <= 0 || rect.height <= 0 || window.getComputedStyle(clip.root).visibility === 'hidden') return false;
+    let left = Math.max(0, rect.left), top = Math.max(0, rect.top);
+    let right = Math.min(window.innerWidth, rect.right), bottom = Math.min(window.innerHeight, rect.bottom);
+    // Also honor the social rail's clipping, not just the outer viewport.
+    for (let parent = clip.root.parentElement; parent && right > left && bottom > top; parent = parent.parentElement) {
+      const style = window.getComputedStyle(parent);
+      const box = parent.getBoundingClientRect();
+      if (/^(auto|scroll|hidden|clip)$/.test(style.overflowX)) { left = Math.max(left, box.left); right = Math.min(right, box.right); }
+      if (/^(auto|scroll|hidden|clip)$/.test(style.overflowY)) { top = Math.max(top, box.top); bottom = Math.min(bottom, box.bottom); }
+    }
+    return right > left && bottom > top;
   };
   const play = async (clip, manual = false) => {
-    // Keyboard focus can scroll a Play button into view before the observer's
-    // next notification. Manual activation uses the current viewport geometry.
-    if (manual) clip.visible = visibleNow(clip);
+    // Global smooth scrolling can still be moving toward a keyboard-focused
+    // control when Enter arrives. Complete that explicit focus navigation now,
+    // before starting playback; automatic clips never initiate a scroll.
+    if (manual) {
+      clip.visible = visibleNow(clip);
+      if (!clip.visible && document.activeElement === clip.button) {
+        clip.root.scrollIntoView({behavior: 'instant', block: 'nearest', inline: 'nearest'});
+        clip.visible = visibleNow(clip);
+      }
+      if (!clip.visible) return;
+    }
     if (document.hidden || panelHidden(clip) || (!manual && (!clipAutoplayAllowed(clip) || clip.userPaused || !clip.autoVisible))) return;
-    if (!clip.video.paused) return;
+    if (!clip.video.paused || clip.pending) return;
     for (const other of clips.values()) if (other !== clip) pause(other);
     const request = ++clip.request;
+    clip.manualActive = manual;
+    clip.pending = true;
     load(clip);
-    clip.button.disabled = true;
+    // Native disabled drops keyboard focus and can make a snapping rail move
+    // while its video starts. Keep focus stable and guard repeat activation.
+    clip.button.setAttribute('aria-busy', 'true');
     try {
       await clip.video.play();
       // A pending play promise must not restart a video that scrolled away.
       if (request !== clip.request || document.hidden || panelHidden(clip) || !(manual ? visibleNow(clip) : clip.visible) || (!manual && !clipAutoplayAllowed(clip))) pause(clip);
-    } catch (_) { setState(clip, false); }
-    finally { clip.button.disabled = false; }
+    } catch (_) { clip.manualActive = false; setState(clip, false); }
+    finally { clip.pending = false; clip.button.removeAttribute('aria-busy'); }
   };
   const observer = new IntersectionObserver(entries => {
     for (const entry of entries) {
       const clip = clips.get(entry.target);
       clip.visible = entry.isIntersecting && entry.intersectionRatio > 0;
+      // A queued pre-focus observer record can arrive after an explicit Play.
+      // Keep that playback only if current geometry is genuinely still visible.
+      if (!clip.visible && clip.manualActive && visibleNow(clip)) clip.visible = true;
       clip.autoVisible = entry.isIntersecting && entry.intersectionRatio >= 0.55;
       if (!clip.visible) pause(clip);
       else if (!clip.userPaused) play(clip);
@@ -61,7 +85,7 @@
   }, {threshold: [0, 0.01, 0.55]});
   const init = (scope = document) => scope.querySelectorAll('[data-motion]').forEach(root => {
     if (clips.has(root)) return;
-    const clip = {root, video: root.querySelector('video'), button: root.querySelector('[data-motion-toggle]'), action: root.querySelector('[data-motion-action]'), status: root.querySelector('[data-motion-status]'), label: root.dataset.motionLabel, manualOnly: root.hasAttribute('data-motion-manual'), visible: false, userPaused: false, request: 0};
+    const clip = {root, video: root.querySelector('video'), button: root.querySelector('[data-motion-toggle]'), action: root.querySelector('[data-motion-action]'), status: root.querySelector('[data-motion-status]'), label: root.dataset.motionLabel, manualOnly: root.hasAttribute('data-motion-manual'), visible: false, userPaused: false, manualActive: false, pending: false, request: 0};
     clips.set(root, clip);
     root.querySelector('.motion-controls').hidden = false;
     clip.video.addEventListener('playing', () => { root.classList.add('has-played'); setState(clip, true); });
@@ -74,6 +98,7 @@
       clip.status.textContent = 'The film could not load. The campaign still is shown.';
     });
     clip.button.addEventListener('click', () => {
+      if (clip.pending) return;
       clip.userPaused = !clip.video.paused;
       if (clip.userPaused) pause(clip);
       else { clip.status.textContent = ''; play(clip, true); }

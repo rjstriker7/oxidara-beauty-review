@@ -5,7 +5,8 @@
       "muted": true,
       "paused": true,
       "time": 0.000634
-    }
+    },
+    "stage": "Initial local test before the first visibility fix; failure retained for audit"
   },
   {
     "test": "Portrait desktop settled visible manual Play",
@@ -13,14 +14,16 @@
       "muted": true,
       "paused": false,
       "time": 0.5395
-    }
+    },
+    "stage": "Local manual play after viewport settled"
   },
   {
     "test": "First keyboard activation after focus scroll, after race fix",
     "result": {
       "paused": false,
       "time": 1.087732
-    }
+    },
+    "stage": "Local desktop retest after first visibility fix"
   },
   {
     "test": "Softened restoration phone variant explicit Play",
@@ -30,6 +33,40 @@
       "src": "/assets/v4-2-oxidara-restoration-film-mobile.mp4",
       "time": 3.083418,
       "width": 432
+    },
+    "stage": "Local mobile restoration check"
+  },
+  {
+    "test": "Public 390px immediate keyboard portrait activation",
+    "stage": "Before final queued-observer fix; failure retained for audit",
+    "result": {
+      "muted": true,
+      "paused": true,
+      "time": 0.003708,
+      "consoleErrors": 0
+    }
+  },
+  {
+    "test": "Rapid first keyboard Play during focus scroll, 390\u00d7844",
+    "stage": "After final trace-based focused-scroll fix",
+    "result": {
+      "paused": false,
+      "time": 0.905001,
+      "muted": true,
+      "focusRetained": true,
+      "keyboardPause": true
+    }
+  },
+  {
+    "test": "Rapid first keyboard Play during focus scroll, 430\u00d7932",
+    "stage": "After final trace-based focused-scroll fix",
+    "result": {
+      "paused": false,
+      "time": 2.171624,
+      "muted": true,
+      "focusRetained": true,
+      "keyboardPause": true,
+      "overflow": false
     }
   }
 ]
