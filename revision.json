@@ -1,10 +1,13 @@
 {
-  "revision": "v4-complete-20260924",
-  "version": "V4",
-  "date": "2026-09-24",
+  "revision": "v4-1-models-20260924",
+  "version": "V4.1",
   "pages": 14,
+  "products": 7,
   "mode": "approval preview",
   "forms": "non-submitting demos",
-  "motion": true,
-  "womensConcepts": 2
+  "automaticHero": true,
+  "newStillImages": 4,
+  "womensModelGalleries": 2,
+  "newModelVideo": "pending connected video-generation service",
+  "retainedRestorationVideo": "original low-resolution brand footage"
 }

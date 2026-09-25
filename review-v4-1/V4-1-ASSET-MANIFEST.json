@@ -1,0 +1,70 @@
+[
+  {
+    "master": "v4-1-oxidara-mist-model-01.png",
+    "nativeDimensions": [
+      1122,
+      1402
+    ],
+    "websiteAssets": [
+      "v4-1-oxidara-mist-model-01-280.webp",
+      "v4-1-oxidara-mist-model-01-560.webp",
+      "v4-1-oxidara-mist-model-01-840.webp",
+      "v4-1-oxidara-mist-model-01.webp"
+    ],
+    "generated": true,
+    "generator": "built-in image_gen",
+    "approval": "Model likeness, product microdetail and any garment fit/drape are generated interpretations, pending owner approval. No efficacy, final fit, textile or production specification is established.",
+    "resolutionNote": "Native 1122x1402, below requested 2400+ long edge. No upscale."
+  },
+  {
+    "master": "v4-1-oxidara-melt-model-01.png",
+    "nativeDimensions": [
+      1122,
+      1402
+    ],
+    "websiteAssets": [
+      "v4-1-oxidara-melt-model-01-280.webp",
+      "v4-1-oxidara-melt-model-01-560.webp",
+      "v4-1-oxidara-melt-model-01-840.webp",
+      "v4-1-oxidara-melt-model-01.webp"
+    ],
+    "generated": true,
+    "generator": "built-in image_gen",
+    "approval": "Model likeness, product microdetail and any garment fit/drape are generated interpretations, pending owner approval. No efficacy, final fit, textile or production specification is established.",
+    "resolutionNote": "Native 1122x1402, below requested 2400+ long edge. No upscale."
+  },
+  {
+    "master": "v4-1-oxidara-womens-jacket-model-01.png",
+    "nativeDimensions": [
+      1122,
+      1402
+    ],
+    "websiteAssets": [
+      "v4-1-oxidara-womens-jacket-model-01-280.webp",
+      "v4-1-oxidara-womens-jacket-model-01-560.webp",
+      "v4-1-oxidara-womens-jacket-model-01-840.webp",
+      "v4-1-oxidara-womens-jacket-model-01.webp"
+    ],
+    "generated": true,
+    "generator": "built-in image_gen",
+    "approval": "Model likeness, product microdetail and any garment fit/drape are generated interpretations, pending owner approval. No efficacy, final fit, textile or production specification is established.",
+    "resolutionNote": "Native 1122x1402, below requested 2400+ long edge. No upscale."
+  },
+  {
+    "master": "v4-1-oxidara-womens-quarterzip-model-01.png",
+    "nativeDimensions": [
+      1122,
+      1402
+    ],
+    "websiteAssets": [
+      "v4-1-oxidara-womens-quarterzip-model-01-280.webp",
+      "v4-1-oxidara-womens-quarterzip-model-01-560.webp",
+      "v4-1-oxidara-womens-quarterzip-model-01-840.webp",
+      "v4-1-oxidara-womens-quarterzip-model-01.webp"
+    ],
+    "generated": true,
+    "generator": "built-in image_gen",
+    "approval": "Model likeness, product microdetail and any garment fit/drape are generated interpretations, pending owner approval. No efficacy, final fit, textile or production specification is established.",
+    "resolutionNote": "Native 1122x1402, below requested 2400+ long edge. No upscale."
+  }
+]

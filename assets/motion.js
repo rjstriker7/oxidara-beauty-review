@@ -26,8 +26,9 @@
     clip.video.defaultMuted = true;
     clip.video.load();
   };
+  const panelHidden = clip => Boolean(clip.root.closest('[data-hero-panel][aria-hidden="true"], [data-hero-panel][hidden]'));
   const play = async (clip, manual = false) => {
-    if (document.hidden || (!manual && (!automaticAllowed() || clip.userPaused || !clip.autoVisible))) return;
+    if (document.hidden || panelHidden(clip) || (!manual && (!automaticAllowed() || clip.userPaused || !clip.autoVisible))) return;
     if (!clip.video.paused) return;
     for (const other of clips.values()) if (other !== clip) pause(other);
     const request = ++clip.request;
@@ -36,7 +37,7 @@
     try {
       await clip.video.play();
       // A pending play promise must not restart a video that scrolled away.
-      if (request !== clip.request || document.hidden || !clip.visible || (!manual && !automaticAllowed())) pause(clip);
+      if (request !== clip.request || document.hidden || panelHidden(clip) || !clip.visible || (!manual && !automaticAllowed())) pause(clip);
     } catch (_) { setState(clip, false); }
     finally { clip.button.disabled = false; }
   };
@@ -57,6 +58,7 @@
     clip.video.addEventListener('playing', () => { root.classList.add('has-played'); setState(clip, true); });
     clip.video.addEventListener('pause', () => setState(clip, false));
     root.addEventListener('oxidara:motion-hide', () => pause(clip));
+    root.addEventListener('oxidara:motion-show', () => play(clip));
     clip.video.addEventListener('error', () => {
       root.classList.remove('has-played');
       pause(clip);
@@ -85,46 +87,121 @@
     for (const [root, clip] of clips) if (event.target.contains(root)) { pause(clip); observer.unobserve(root); clips.delete(root); }
   });
   init();
+  const heroes = new Map();
   const initHero = (scope = document) => scope.querySelectorAll('[data-hero-slider]').forEach(slider => {
-    if (slider.dataset.initialized) return;
-    slider.dataset.initialized = 'true';
+    if (heroes.has(slider)) return;
     const buttons = [...slider.querySelectorAll('[data-hero-view]')];
+    const panels = buttons.map(button => document.getElementById(button.getAttribute('aria-controls')));
     const rotation = slider.querySelector('[data-hero-rotation]');
     const status = slider.querySelector('[data-hero-status]');
-    slider.querySelector('.hero-view-controls').hidden = false;
-    let index = 0, stopped = reduced.matches, visible = false, timer, startX, startY;
-    const updateRotation = () => { rotation.textContent = stopped ? 'Play slides' : 'Pause slides'; rotation.setAttribute('aria-label', stopped ? 'Start automatic slides' : 'Pause automatic slides'); };
+    if (buttons.length < 2 || panels.some(panel => !panel) || !rotation) return;
+    const events = new AbortController();
+    const listen = (target, name, listener) => target.addEventListener(name, listener, {signal: events.signal});
+    const interval = 6000;
+    let index = 0, userPaused = false, visible = false, pageActive = true, destroyed = false, keyboardFocus = false, pointerFocus = false, timer, pointerStart;
+    const clearTimer = () => { clearTimeout(timer); timer = undefined; };
+    const canRotate = () => !destroyed && slider.isConnected && pageActive && visible && !document.hidden &&
+      !userPaused && !reduced.matches && !pointerStart && !(keyboardFocus && slider.contains(document.activeElement)) &&
+      !panels[index].querySelector('.is-playing');
+    const schedule = () => {
+      clearTimer();
+      if (canRotate()) timer = setTimeout(() => {
+        timer = undefined;
+        if (canRotate()) select(index + 1);
+      }, interval);
+    };
+    const updateRotation = () => {
+      rotation.disabled = reduced.matches;
+      rotation.textContent = reduced.matches ? 'Motion reduced' : userPaused ? 'Play slides' : 'Pause slides';
+      rotation.setAttribute('aria-label', reduced.matches ? 'Automatic slides disabled by reduced-motion preference' : userPaused ? 'Start automatic slides' : 'Pause automatic slides');
+    };
     const select = (next, manual = false) => {
+      clearTimer();
       index = (next + buttons.length) % buttons.length;
       buttons.forEach((button, i) => {
         const selected = i === index;
+        const panel = panels[i];
         button.setAttribute('aria-pressed', String(selected));
-        const panel = document.getElementById(button.getAttribute('aria-controls'));
-        panel.hidden = !selected;
-        if (!selected) panel.querySelectorAll('[data-motion]').forEach(root => root.dispatchEvent(new Event('oxidara:motion-hide')));
+        // All panels share one layout cell so opacity can crossfade without
+        // changing hero height. Inactive content is inert and unavailable to AT.
+        panel.hidden = false;
+        panel.inert = !selected;
+        panel.setAttribute('aria-hidden', String(!selected));
+        panel.classList.toggle('is-current', selected);
+        panel.querySelectorAll('[data-motion]').forEach(root => root.dispatchEvent(new Event(selected ? 'oxidara:motion-show' : 'oxidara:motion-hide')));
       });
-      if (manual) { stopped = true; updateRotation(); status.textContent = buttons[index].getAttribute('aria-label'); }
+      slider.dataset.activeSlide = String(index + 1);
+      // Prepare the following photograph before its turn, without giving it
+      // priority over the initial product image.
+      panels[(index + 1) % panels.length].querySelectorAll('img[loading="lazy"]').forEach(image => { image.loading = 'eager'; });
+      if (manual && status) status.textContent = panels[index].getAttribute('aria-label');
+      schedule();
     };
-    const start = () => { clearInterval(timer); timer = setInterval(() => {
-      if (!slider.isConnected) { clearInterval(timer); return; }
-      if (!stopped && !reduced.matches && visible && !document.hidden && !slider.matches(':hover') && !slider.contains(document.activeElement) && !slider.querySelector('.is-playing')) select(index + 1);
-    }, 12000); };
     buttons.forEach((button, i) => {
-      button.addEventListener('click', () => select(i, true));
-      button.addEventListener('keydown', event => {
+      listen(button, 'click', () => select(i, true));
+      listen(button, 'keydown', event => {
+        pointerFocus = false; keyboardFocus = true; schedule();
         const next = {ArrowRight: (i + 1) % buttons.length, ArrowLeft: (i - 1 + buttons.length) % buttons.length, Home: 0, End: buttons.length - 1}[event.key];
         if (next === undefined) return;
-        event.preventDefault(); buttons[next].focus(); select(next, true);
+        event.preventDefault();
+        buttons[next].focus();
+        select(next, true);
       });
     });
-    rotation.addEventListener('click', () => { stopped = !stopped; updateRotation(); start(); });
-    slider.addEventListener('pointerdown', event => { startX = event.clientX; startY = event.clientY; });
-    slider.addEventListener('pointerup', event => { if (startX === undefined) return; const dx = event.clientX - startX, dy = event.clientY - startY; startX = undefined; if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.4 && event.pointerType !== 'mouse') select(index + (dx < 0 ? 1 : -1), true); });
-    slider.addEventListener('pointercancel', () => { startX = undefined; });
-    const visibility = new IntersectionObserver(entries => { visible = entries[0].isIntersecting; }, {threshold: .3}); visibility.observe(slider);
-    reduced.addEventListener('change', () => { if (reduced.matches) stopped = true; updateRotation(); });
-    updateRotation(); start();
+    listen(rotation, 'click', () => {
+      userPaused = !userPaused;
+      // Explicit Play starts even if that control still has keyboard focus.
+      if (!userPaused) keyboardFocus = false;
+      updateRotation(); schedule();
+    });
+    // Keyboard focus pauses while someone reads/operates the hero. Pointer
+    // focus left behind after a tap/click does not silently freeze the slides.
+    listen(slider, 'focusin', () => {
+      keyboardFocus = !pointerFocus && Boolean(document.activeElement?.matches(':focus-visible'));
+      schedule();
+    });
+    listen(slider, 'keydown', () => { pointerFocus = false; keyboardFocus = true; schedule(); });
+    listen(slider, 'focusout', () => queueMicrotask(() => {
+      if (!slider.contains(document.activeElement)) { keyboardFocus = false; pointerFocus = false; }
+      schedule();
+    }));
+    listen(slider, 'pointerdown', event => {
+      pointerFocus = true; keyboardFocus = false; schedule();
+      if (event.pointerType === 'mouse' || event.target.closest('a, button, input, select, textarea, summary')) return;
+      pointerStart = {x: event.clientX, y: event.clientY};
+      clearTimer();
+    });
+    listen(window, 'pointerup', event => {
+      if (!pointerStart) return;
+      const dx = event.clientX - pointerStart.x, dy = event.clientY - pointerStart.y;
+      pointerStart = undefined;
+      if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.4) select(index + (dx < 0 ? 1 : -1), true);
+      else schedule();
+    });
+    listen(window, 'pointercancel', () => { pointerStart = undefined; schedule(); });
+    panels.forEach(panel => panel.querySelectorAll('video').forEach(video => {
+      listen(video, 'playing', clearTimer);
+      listen(video, 'pause', schedule);
+    }));
+    const visibility = new IntersectionObserver(entries => {
+      const entry = entries[entries.length - 1];
+      visible = entry.isIntersecting && entry.intersectionRatio >= 0.3;
+      schedule();
+    }, {threshold: [0, 0.3]});
+    visibility.observe(slider);
+    listen(reduced, 'change', () => { updateRotation(); schedule(); });
+    listen(document, 'visibilitychange', schedule);
+    listen(window, 'pagehide', () => { pageActive = false; pointerStart = undefined; clearTimer(); });
+    listen(window, 'pageshow', () => { pageActive = true; schedule(); });
+    heroes.set(slider, () => { destroyed = true; clearTimer(); events.abort(); visibility.disconnect(); });
+    slider.classList.add('is-enhanced');
+    slider.querySelector('.hero-view-controls').hidden = false;
+    updateRotation();
+    select(0);
   });
   initHero();
   document.addEventListener('shopify:section:load', event => initHero(event.target));
+  document.addEventListener('shopify:section:unload', event => {
+    for (const [slider, destroy] of heroes) if (event.target.contains(slider)) { destroy(); heroes.delete(slider); }
+  });
 })();

@@ -1,0 +1,22 @@
+/* Layer slides in a stable frame; JavaScript manages aria-hidden and inert. */
+.campaign-hero.is-enhanced { display: grid; }
+.campaign-hero.is-enhanced > .campaign-slide {
+  grid-area: 1 / 1;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 700ms ease-in-out, visibility 0s linear 700ms;
+}
+.campaign-hero.is-enhanced > .campaign-slide.is-current {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition-delay: 0s;
+}
+.campaign-hero .hero-view-controls [data-hero-rotation]:disabled {
+  cursor: default;
+  opacity: .7;
+}
+@media (prefers-reduced-motion: reduce) {
+  .campaign-hero.is-enhanced > .campaign-slide { transition: none; }
+}

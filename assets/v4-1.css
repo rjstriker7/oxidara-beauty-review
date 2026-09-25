@@ -1,0 +1,33 @@
+/* Campaign imagery stays clear; review notes sit outside the photograph. */
+.campaign-model>img{object-position:50% 16%;object-fit:cover}
+.concept-gallery{min-width:0}
+.concept-gallery .concept-image{aspect-ratio:4/5}
+.concept-gallery .concept-image img{object-fit:contain;object-position:50% 0}
+.concept-gallery-controls{display:flex;gap:12px;margin:14px 0 0;flex-wrap:wrap}
+.concept-gallery-controls button{display:flex;align-items:center;gap:10px;background:transparent;border:1px solid var(--line);padding:5px 13px 5px 5px;min-height:60px;color:var(--ink);font:inherit;font-size:14px;cursor:pointer}
+.concept-gallery-controls button[aria-pressed=true]{border:1px solid var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.concept-gallery-controls img{width:40px;height:50px;object-fit:cover}
+.concept-view-caption{font-size:12px;color:var(--muted);margin-top:12px}
+.wardrobe-concept-teaser>a{grid-template-columns:minmax(220px,.9fr) 1.1fr}
+.concept-teaser-image{aspect-ratio:4/5;max-height:none;height:auto}
+.concept-teaser-image img{height:100%;object-fit:cover;object-position:50% 0;mix-blend-mode:normal}
+.v41-campaign-still figure{max-width:560px}
+.v41-campaign-still figure>img{width:100%;height:auto;aspect-ratio:4/5;object-fit:contain}
+.v41-campaign-still figcaption{position:static;padding:12px 18px;background:transparent;color:var(--muted);font-size:12px;margin:0}
+.brand-editorial-film figcaption{position:static;padding:12px 18px;color:var(--muted);background:transparent;font-size:12px}
+.brand-editorial-film .campaign-source{font-size:12px;min-height:44px}
+.preview-imagery-note{border-top:1px solid #ffffff30;margin-top:20px;padding-top:10px;color:#dedbd2;max-width:760px;font-size:13px}
+.preview-imagery-note summary{cursor:pointer;min-height:44px;display:list-item;padding:12px 0}
+.preview-imagery-note p{padding:4px 0 15px;line-height:1.6}
+.site-footer summary:focus-visible{outline:2px solid #f7f3eb;outline-offset:4px}
+.mobile-swipe-note{display:none}
+@media(max-width:760px){
+ .wardrobe-concept-teaser>a{grid-template-columns:1fr}
+ .concept-teaser-image{height:auto}
+ .concept-teaser-image img{height:auto;aspect-ratio:4/5}
+ .concept-gallery-controls{gap:10px}
+ .concept-gallery-controls button{font-size:13px}
+ .featured-grid>.product-card,.journal-grid>a{flex-basis:100%}
+ .mobile-swipe-note{display:block;color:var(--muted);font-size:13px;margin:-6px 0 18px}
+ .v41-campaign-still figure{max-width:none}
+}
