@@ -1,0 +1,44 @@
+/* Focused V4 refinements: a single featured campaign, compact supporting posts. */
+.journal-editorial{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:start}
+.journal-editorial a{position:relative;min-width:0}
+.journal-feature{display:block}
+.journal-feature-image{aspect-ratio:4/5;max-height:650px;overflow:hidden;background:var(--surface)}
+.journal-feature-image img{width:100%;height:100%;object-fit:cover}
+.journal-feature-copy{display:flex;flex-direction:column;align-items:flex-start;padding-top:16px}
+.journal-editorial .journal-title{display:block;font-size:clamp(22px,2vw,28px);line-height:1.15;margin:0;max-width:none}
+.journal-editorial .journal-action{min-height:44px;gap:12px;line-height:1.4;margin-top:4px;text-decoration:none}
+.journal-editorial a:hover .journal-action,.journal-editorial a.journal-action:hover{text-decoration:underline}
+.journal-supporting{display:grid;gap:26px}
+.journal-support{display:grid;grid-template-columns:minmax(115px,180px) minmax(0,1fr);gap:24px;align-items:center;margin:0}
+.journal-support+.journal-support{border-top:1px solid var(--line);padding-top:26px}
+.journal-support-image{aspect-ratio:4/5;overflow:hidden;background:var(--surface);min-width:0}
+.journal-support-image>img{width:100%;height:100%;object-fit:cover}
+.journal-support-copy{display:block;min-width:0}
+.journal-support .journal-title{font-size:clamp(20px,1.65vw,24px)}
+.journal-caption{font-size:12px;line-height:1.5;color:var(--muted);margin-top:12px}
+.journal-portrait .campaign-video{aspect-ratio:4/5;height:100%}
+.journal-portrait .motion-controls{left:auto;right:10px;bottom:10px}
+@media(max-width:1000px) and (min-width:761px){
+ .journal-editorial{grid-template-columns:1.1fr 1fr;gap:30px}
+ .journal-support{grid-template-columns:110px minmax(0,1fr);gap:18px}
+ .journal-supporting{gap:18px}.journal-support+.journal-support{padding-top:18px}
+ .journal-support .journal-title{font-size:20px}.journal-caption{font-size:11px}
+}
+@media(max-width:760px){
+ .featured-grid{scroll-snap-type:x mandatory;scroll-padding-inline:0;overscroll-behavior-x:contain;gap:18px}
+ .featured-grid>.product-card{flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always}
+ .journal-editorial{display:block}
+ .journal-feature-image{max-height:540px}
+ .journal-feature-copy{padding-top:16px}
+ .journal-supporting{margin-top:28px;gap:22px;border-top:1px solid var(--line);padding-top:22px}
+ .journal-support{grid-template-columns:112px minmax(0,1fr);gap:22px}
+ .journal-support+.journal-support{padding-top:22px}
+ .journal-support .journal-title{font-size:21px;line-height:1.22}
+ .journal-editorial .journal-action{font-size:13px;gap:9px}
+ .journal-caption{font-size:12px;margin-top:8px}
+}
+@media(max-width:760px){.featured-grid .product-card-link:focus-visible{outline-offset:-3px}}
+/* Keep all embedded campaign lettering and bottle bases inside the frame. */
+.journal-feature-image{aspect-ratio:941/1672;max-height:720px}
+.journal-feature-image img{object-fit:contain}
+@media(max-width:760px){.journal-feature-image{max-height:none}}

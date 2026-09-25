@@ -1,0 +1,162 @@
+[
+  {
+    "failed": [],
+    "fonts": "loaded",
+    "height": 844,
+    "overflow": false,
+    "portrait": {
+      "manual": true,
+      "paused": true,
+      "source": null
+    },
+    "rail": {
+      "cardWidth": 346,
+      "snap": "x mandatory",
+      "width": 346
+    },
+    "sections": [
+      {
+        "height": 700,
+        "selector": ".campaign-hero",
+        "y": 102
+      },
+      {
+        "height": 876.859375,
+        "selector": ".featured",
+        "y": 1139.40625
+      },
+      {
+        "height": 856.578125,
+        "selector": ".brand-editorial",
+        "y": 2016.265625
+      },
+      {
+        "height": 1539,
+        "selector": ".social-journal",
+        "y": 3540.90625
+      }
+    ],
+    "unloaded": 0,
+    "width": 390
+  },
+  {
+    "failed": [],
+    "fonts": "loaded",
+    "height": 932,
+    "overflow": false,
+    "portrait": {
+      "manual": true,
+      "paused": true,
+      "source": null
+    },
+    "rail": {
+      "cardWidth": 386,
+      "snap": "x mandatory",
+      "width": 386
+    },
+    "sections": [
+      {
+        "height": 700,
+        "selector": ".campaign-hero",
+        "y": 102
+      },
+      {
+        "height": 926.859375,
+        "selector": ".featured",
+        "y": 1139.40625
+      },
+      {
+        "height": 899.78125,
+        "selector": ".brand-editorial",
+        "y": 2066.265625
+      },
+      {
+        "height": 1610.0625,
+        "selector": ".social-journal",
+        "y": 3609.3125
+      }
+    ],
+    "unloaded": 0,
+    "width": 430
+  },
+  {
+    "failed": [],
+    "fonts": "loaded",
+    "height": 1024,
+    "overflow": false,
+    "portrait": {
+      "manual": true,
+      "paused": true,
+      "source": null
+    },
+    "rail": {
+      "cardWidth": 215.625,
+      "snap": "none",
+      "width": 699
+    },
+    "sections": [
+      {
+        "height": 540,
+        "selector": ".campaign-hero",
+        "y": 122
+      },
+      {
+        "height": 659.828125,
+        "selector": ".featured",
+        "y": 956.6875
+      },
+      {
+        "height": 457.640625,
+        "selector": ".brand-editorial",
+        "y": 1628.515625
+      },
+      {
+        "height": 980.171875,
+        "selector": ".social-journal",
+        "y": 2538.171875
+      }
+    ],
+    "unloaded": 0,
+    "width": 768
+  },
+  {
+    "failed": [],
+    "fonts": "loaded",
+    "height": 1000,
+    "overflow": false,
+    "portrait": {
+      "manual": true,
+      "paused": true,
+      "source": null
+    },
+    "rail": {
+      "cardWidth": 419.46875,
+      "snap": "none",
+      "width": 1310
+    },
+    "sections": [
+      {
+        "height": 620,
+        "selector": ".campaign-hero",
+        "y": 122
+      },
+      {
+        "height": 902.703125,
+        "selector": ".featured",
+        "y": 1011.890625
+      },
+      {
+        "height": 728,
+        "selector": ".brand-editorial",
+        "y": 1926.59375
+      },
+      {
+        "height": 1094.515625,
+        "selector": ".social-journal",
+        "y": 3065.125
+      }
+    ],
+    "unloaded": 0,
+    "width": 1440
+  }
+]

@@ -26,9 +26,18 @@
     clip.video.defaultMuted = true;
     clip.video.load();
   };
+  const clipAutoplayAllowed = clip => !clip.manualOnly && automaticAllowed();
   const panelHidden = clip => Boolean(clip.root.closest('[data-hero-panel][aria-hidden="true"], [data-hero-panel][hidden]'));
+  const visibleNow = clip => {
+    const rect = clip.root.getBoundingClientRect();
+    return rect.width > 0 && rect.height > 0 && rect.bottom > 0 && rect.right > 0 &&
+      rect.top < window.innerHeight && rect.left < window.innerWidth;
+  };
   const play = async (clip, manual = false) => {
-    if (document.hidden || panelHidden(clip) || (!manual && (!automaticAllowed() || clip.userPaused || !clip.autoVisible))) return;
+    // Keyboard focus can scroll a Play button into view before the observer's
+    // next notification. Manual activation uses the current viewport geometry.
+    if (manual) clip.visible = visibleNow(clip);
+    if (document.hidden || panelHidden(clip) || (!manual && (!clipAutoplayAllowed(clip) || clip.userPaused || !clip.autoVisible))) return;
     if (!clip.video.paused) return;
     for (const other of clips.values()) if (other !== clip) pause(other);
     const request = ++clip.request;
@@ -37,7 +46,7 @@
     try {
       await clip.video.play();
       // A pending play promise must not restart a video that scrolled away.
-      if (request !== clip.request || document.hidden || panelHidden(clip) || !clip.visible || (!manual && !automaticAllowed())) pause(clip);
+      if (request !== clip.request || document.hidden || panelHidden(clip) || !(manual ? visibleNow(clip) : clip.visible) || (!manual && !clipAutoplayAllowed(clip))) pause(clip);
     } catch (_) { setState(clip, false); }
     finally { clip.button.disabled = false; }
   };
@@ -52,7 +61,7 @@
   }, {threshold: [0, 0.01, 0.55]});
   const init = (scope = document) => scope.querySelectorAll('[data-motion]').forEach(root => {
     if (clips.has(root)) return;
-    const clip = {root, video: root.querySelector('video'), button: root.querySelector('[data-motion-toggle]'), action: root.querySelector('[data-motion-action]'), status: root.querySelector('[data-motion-status]'), label: root.dataset.motionLabel, visible: false, userPaused: false, request: 0};
+    const clip = {root, video: root.querySelector('video'), button: root.querySelector('[data-motion-toggle]'), action: root.querySelector('[data-motion-action]'), status: root.querySelector('[data-motion-status]'), label: root.dataset.motionLabel, manualOnly: root.hasAttribute('data-motion-manual'), visible: false, userPaused: false, request: 0};
     clips.set(root, clip);
     root.querySelector('.motion-controls').hidden = false;
     clip.video.addEventListener('playing', () => { root.classList.add('has-played'); setState(clip, true); });

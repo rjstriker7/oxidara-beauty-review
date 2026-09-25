@@ -1,0 +1,35 @@
+[
+  {
+    "test": "Portrait desktop explicit Play",
+    "result": {
+      "muted": true,
+      "paused": true,
+      "time": 0.000634
+    }
+  },
+  {
+    "test": "Portrait desktop settled visible manual Play",
+    "result": {
+      "muted": true,
+      "paused": false,
+      "time": 0.5395
+    }
+  },
+  {
+    "test": "First keyboard activation after focus scroll, after race fix",
+    "result": {
+      "paused": false,
+      "time": 1.087732
+    }
+  },
+  {
+    "test": "Softened restoration phone variant explicit Play",
+    "result": {
+      "muted": true,
+      "paused": false,
+      "src": "/assets/v4-2-oxidara-restoration-film-mobile.mp4",
+      "time": 3.083418,
+      "width": 432
+    }
+  }
+]

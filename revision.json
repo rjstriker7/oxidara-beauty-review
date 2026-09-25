@@ -1,13 +1,14 @@
 {
-  "revision": "v4-1-models-20260924",
-  "version": "V4.1",
+  "revision": "v4-2-focused-20260924",
+  "version": "V4.2",
   "pages": 14,
   "products": 7,
   "mode": "approval preview",
   "forms": "non-submitting demos",
-  "automaticHero": true,
-  "newStillImages": 4,
-  "womensModelGalleries": 2,
-  "newModelVideo": "pending connected video-generation service",
-  "retainedRestorationVideo": "original low-resolution brand footage"
+  "defaultHero": "Oxidara Mist and Melt product duo",
+  "portraitFilm": "secondary editorial item; explicit Play only",
+  "socialLayout": "featured campaign plus supporting posts; no mobile rail",
+  "restorationVideo": "same original 153 frames / 5.10 seconds; softer highlights and matching poster; native resolution",
+  "womensConcepts": "two proposed AI-generated design studies; owner approval pending; outside seven products",
+  "newModelVideo": "pending connected video-generation service or approved supplied clip"
 }
