@@ -131,7 +131,7 @@
     if (buttons.length < 2 || panels.some(panel => !panel) || !rotation) return;
     const events = new AbortController();
     const listen = (target, name, listener) => target.addEventListener(name, listener, {signal: events.signal});
-    const interval = 6000;
+    const interval = Math.max(6000, Number(slider.dataset.slideDuration) || 8000);
     let index = 0, userPaused = false, visible = false, pageActive = true, destroyed = false, keyboardFocus = false, pointerFocus = false, timer, pointerStart;
     const clearTimer = () => { clearTimeout(timer); timer = undefined; };
     const canRotate = () => !destroyed && slider.isConnected && pageActive && visible && !document.hidden &&

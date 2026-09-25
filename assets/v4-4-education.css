@@ -1,0 +1,42 @@
+/* V4.4: the same ivory canvas, with mineral warmth and clear long-page navigation. */
+.v44-story{--story-earth:var(--mars,#783c2e);--story-tint:var(--pale-earth,#f3eae1)}
+.v44-story .v43-story-belief h2{max-width:12ch;font-size:clamp(32px,3.05vw,44px);line-height:1.15}
+.v44-story .v43-story-beliefs{gap:clamp(32px,7vw,106px)}
+.v44-story .v43-story-restoration h2{max-width:14ch}
+.v44-story .v43-story-opening-copy>p.v43-story-lead{color:var(--mars,#783c2e)}
+.v44-story .v44-story-closing{font:400 clamp(30px,3.2vw,46px)/1.2 var(--display);color:var(--mars-deep,#5e2d24);letter-spacing:-.02em;border-top:1px solid #dac6b8;margin-top:48px;padding-top:38px;max-width:26ch}
+.edu-section-intro{color:var(--muted)}
+.edu-section-intro>p+p{margin-top:14px}
+.edu-section-intro .edu-library-context{font-size:13px;line-height:1.55;max-width:48ch}
+.edu-contents.section-pad{padding-top:18px;padding-bottom:20px;display:grid;grid-template-columns:auto 1fr;align-items:center;gap:20px 35px;border-top:1px solid #d9cabc;border-bottom:1px solid #d9cabc;background:var(--pale-earth,#f3eae1)}
+.edu-contents>p{font-size:14px;font-weight:500;color:var(--mars-deep,#5e2d24);white-space:nowrap}
+.edu-contents ol{list-style:none;display:flex;flex-wrap:wrap;gap:4px 24px;margin:0;padding:0}
+.edu-contents li{min-width:0}
+.edu-contents a{display:flex;align-items:center;min-height:44px;font-size:13px;line-height:1.4;text-decoration:underline;text-underline-offset:5px;text-decoration-color:#b58b77;text-decoration-thickness:1px;color:var(--ink)}
+.edu-contents a:hover{color:var(--mars,#783c2e);text-decoration-color:currentColor}
+.edu-contents a:focus-visible{outline:2px solid var(--mars,#783c2e);outline-offset:4px}
+.edu-philosophy,.edu-principles,.edu-library,.edu-support,.edu-process,.edu-products{scroll-margin-top:125px}
+.edu-philosophy .eyebrow,.edu-principles .eyebrow,.edu-library .eyebrow,.edu-support .eyebrow,.edu-process .eyebrow,.edu-products .eyebrow,.edu-product-ingredients .eyebrow,.edu-accessory .eyebrow,.edu-application .eyebrow,.edu-collection .eyebrow,.edu-routine .eyebrow{color:var(--mars,#783c2e)}
+.edu-principles,.edu-support{background:var(--pale-earth,#f3eae1)}
+.edu-ingredient{background:#f4eee6;border-color:#d8cbbd}
+.edu-ingredient-top{border-color:#d8cbbd}
+.edu-ingredient--amber .edu-ingredient-top,.edu-ingredient--sand .edu-ingredient-top{background:var(--sandstone,#eee1d5)}
+.edu-ingredient-index,.edu-format-number,.edu-application-steps>li>span,.edu-support-rows article>span,.edu-process-rows article>span,.edu-principle-grid article>span{color:var(--mars,#783c2e)}
+.edu-earth-note{color:var(--mars,#783c2e)!important}
+.edu-ingredient-copy{padding-top:24px}
+.edu-application-intro>p:not(.eyebrow){max-width:45ch}
+@media(max-width:1100px){.edu-contents.section-pad{grid-template-columns:1fr;gap:7px}.edu-contents ol{gap:2px 25px}}
+@media(max-width:760px){
+ .v44-story .v43-story-belief h2{max-width:14ch;font-size:34px}
+ .v44-story .v43-story-restoration h2{font-size:34px}
+ .v44-story .v44-story-closing{font-size:32px;margin-top:34px;padding-top:28px;max-width:23ch}
+ .edu-contents.section-pad{padding-top:18px;padding-bottom:18px;gap:10px}
+ .edu-contents ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 18px}
+ .edu-contents a{font-size:13px;min-height:44px;line-height:1.35;padding:3px 0}
+ .edu-section-intro{font-size:15px}
+ .edu-section-intro .edu-library-context{font-size:13px;max-width:none}
+ .edu-philosophy,.edu-principles,.edu-library,.edu-support,.edu-process,.edu-products{scroll-margin-top:90px}
+ .edu-ingredient-copy{padding-top:22px;padding-bottom:24px}
+ .edu-ingredient-copy h3{margin-top:0}
+}
+@media(prefers-reduced-motion:reduce){.edu-contents a{transition:none}}

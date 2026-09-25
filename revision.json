@@ -1,11 +1,10 @@
 {
-  "revision": "v4-3-refinement-20260925",
-  "version": "V4.3",
-  "published": true,
-  "publicationScope": "separate approval preview only",
+  "revision": "v4-4-public-preview-20260925",
+  "version": "V4.4",
+  "url": "https://oxidaraskin.com/",
   "pages": 14,
-  "products": 7,
-  "forms": "disabled demos",
-  "women": "two owner-pending proposed designs",
-  "newAssets": 5
+  "displayedPreviewStyles": 9,
+  "originalProductRecords": 7,
+  "forms": "non-submitting demos",
+  "applicationFilm": "OPEN \u2014 temporary still; actual application film is not delivered"
 }
