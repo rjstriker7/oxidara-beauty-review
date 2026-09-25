@@ -1,0 +1,4 @@
+{
+  "note": "QA fixture intentionally requests one unavailable video; Chrome extension warnings excluded from site defects.",
+  "entries": []
+}

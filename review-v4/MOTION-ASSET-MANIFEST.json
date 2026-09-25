@@ -1,0 +1,132 @@
+[
+  {
+    "name": "portrait",
+    "source_post": "https://www.tiktok.com/@oxidara.beauty/video/7619851588173073695",
+    "source_file": "/Users/rodolfomacmini/Desktop/Oxidara_V2_Assets/06_Original_References/Video/oxidara_restoration_tiktok_7619851588173073695_original.mp4",
+    "source_dimensions": [
+      576,
+      854
+    ],
+    "source_seconds": [
+      43.0,
+      47.7
+    ],
+    "loop_seconds": 4.3,
+    "audio_streams": 0,
+    "master": "/Users/rodolfomacmini/Documents/Codex/2026-09-23/ok-x20/outputs/oxidara-motion-v3-1/masters/oxidara-portrait-film-master.mp4",
+    "native_master_dimensions": [
+      528,
+      660
+    ],
+    "edits": "Trim, 4:5 crop excluding watermark, 0.4s seam dissolve, audio removed, web encoding. No generated motion, upscaling, sharpening, retouching or application demonstration.",
+    "source_disclosure": "Original Oxidara campaign marked as containing AI-generated media on TikTok. Not authenticated product/lifestyle photography.",
+    "approval": "Owner approval for website reuse, depicted likenesses and source imagery; higher-resolution clean original needed for production.",
+    "outputs": [
+      {
+        "file": "oxidara-portrait-film.mp4",
+        "bytes": 469525,
+        "width": 528,
+        "height": 660,
+        "sha256": "74e266a13426cc4078ae56394454b17510a624d496f4f3312e0714a8c4eaf92f"
+      },
+      {
+        "file": "oxidara-portrait-film.webm",
+        "bytes": 575191,
+        "width": 528,
+        "height": 660,
+        "sha256": "47dba0aa86c23f0cf74ddabb89f9703fdd701bc19c8fe368bf72efbd1e6489d8"
+      },
+      {
+        "file": "oxidara-portrait-film-poster.webp",
+        "bytes": 27978,
+        "width": 528,
+        "height": 660
+      },
+      {
+        "file": "oxidara-portrait-film-mobile.mp4",
+        "bytes": 352694,
+        "width": 432,
+        "height": 540,
+        "sha256": "9d8aaf787d550db395a9ec9cc4360e1d3103c5786cd2e7eec5f869d57383059e"
+      },
+      {
+        "file": "oxidara-portrait-film-mobile.webm",
+        "bytes": 461835,
+        "width": 432,
+        "height": 540,
+        "sha256": "a8c4702067d0d0819d84ce6244ec7071c59cf88ebbf0ce38f1ff20deb031edca"
+      },
+      {
+        "file": "oxidara-portrait-film-mobile-poster.webp",
+        "bytes": 22358,
+        "width": 432,
+        "height": 540
+      }
+    ]
+  },
+  {
+    "name": "restoration",
+    "source_post": "https://www.tiktok.com/@oxidara.beauty/video/7619851588173073695",
+    "source_file": "/Users/rodolfomacmini/Desktop/Oxidara_V2_Assets/06_Original_References/Video/oxidara_restoration_tiktok_7619851588173073695_original.mp4",
+    "source_dimensions": [
+      576,
+      854
+    ],
+    "source_seconds": [
+      19.6,
+      22.200000000000003
+    ],
+    "loop_seconds": 5.13,
+    "audio_streams": 0,
+    "master": "/Users/rodolfomacmini/Documents/Codex/2026-09-23/ok-x20/outputs/oxidara-motion-v3-1/masters/oxidara-restoration-film-master.mp4",
+    "native_master_dimensions": [
+      528,
+      660
+    ],
+    "edits": "Trim, 4:5 crop excluding watermark, forward/reverse continuous loop, audio removed, web encoding. No generated motion, upscaling, sharpening, retouching or application demonstration.",
+    "source_disclosure": "Original Oxidara campaign marked as containing AI-generated media on TikTok. Not authenticated product/lifestyle photography.",
+    "approval": "Owner approval for website reuse, depicted likenesses and source imagery; higher-resolution clean original needed for production.",
+    "outputs": [
+      {
+        "file": "oxidara-restoration-film.mp4",
+        "bytes": 268622,
+        "width": 528,
+        "height": 660,
+        "sha256": "58e82565004678f5448fde282c0e22ef3c96fc3543e885211ca157b6d7aaa0b1"
+      },
+      {
+        "file": "oxidara-restoration-film.webm",
+        "bytes": 206760,
+        "width": 528,
+        "height": 660,
+        "sha256": "cf3bdb9d4199753512d09560a45142c93fc9ca17be649e0067d0fe9142e545c9"
+      },
+      {
+        "file": "oxidara-restoration-film-poster.webp",
+        "bytes": 20566,
+        "width": 528,
+        "height": 660
+      },
+      {
+        "file": "oxidara-restoration-film-mobile.mp4",
+        "bytes": 183590,
+        "width": 432,
+        "height": 540,
+        "sha256": "589e999f13098f7b0d34ada0929a5f5900e4c10ab1667884f057cc8199b777a2"
+      },
+      {
+        "file": "oxidara-restoration-film-mobile.webm",
+        "bytes": 160715,
+        "width": 432,
+        "height": 540,
+        "sha256": "706a6617a810b4ba5d256eda9b5e1059ff8d0d849d374e8b5add1cf2169f10db"
+      },
+      {
+        "file": "oxidara-restoration-film-mobile-poster.webp",
+        "bytes": 15938,
+        "width": 432,
+        "height": 540
+      }
+    ]
+  }
+]

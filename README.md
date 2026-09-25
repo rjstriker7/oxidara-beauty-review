@@ -1,7 +1,7 @@
-# Oxidara Beauty V3 public review
+# Oxidara V4 approval preview
 
-[Open the current V3 review](https://rjstriker7.github.io/oxidara-beauty-review/?review=v3-ivory-20260924)
+Open https://rjstriker7.github.io/oxidara-beauty-review/
 
-Approval-stage static preview of all 13 pages, with a unified ivory retail design, modern typography and recomposed page layouts. All seven products are Coming Soon. No prices, cart or checkout. Contact and brand-wide signup forms are explicitly non-submitting demos. Product facts and reconstructed details remain unverified and subject to owner approval.
+Current films, screenshots and owner dependencies: https://rjstriker7.github.io/oxidara-beauty-review/review-v4/
 
-The owner requested an externally accessible link and ChatGPT review of this V3 revision. This updates the existing approval preview only. This is separate from the brand domain.
+14 pages; seven Coming Soon catalog entries; two proposed women’s concepts. Non-submitting demo forms. Not a store launch. Older review directories are historical.
